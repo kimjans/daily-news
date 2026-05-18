@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="paper">
+    <header class="masthead">
+      <p class="masthead-edge">Daily Dispatch · 매일 아침 배달</p>
+      <h1 class="masthead-title">THE AI MORNING</h1>
+      <p class="masthead-edge">No. 1 · Independent · Published Daily</p>
+    </header>
+
+    <article class="newspaper">
+      {{ content }}
+    </article>
+  </main>
+</body>
+</html>

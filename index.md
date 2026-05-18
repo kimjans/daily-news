@@ -1,25 +1,25 @@
 ---
 layout: default
-title: Daily AI News for FE
+title: The AI Morning
 ---
 
 # 📬 오늘의 AI 뉴스 브리핑 (2026-05-18)
 
-> FE 개발자를 위한 일일 AI 뉴스 다이제스트
+> 매일 아침 배달되는 AI 뉴스 다이제스트
 
 ---
 
 ## 🌐 AI 일반
 
-### **[Anthropic]** Anthropic, $950B 밸류에이션 펀딩 라운드 협상 중
+### **[Anthropic]** $950B 밸류에이션 펀딩 라운드 협상 중
 - 4월 ARR $30B 돌파, Fortune 10 중 8개사가 Claude 고객
 - 출처: [Fortune](https://fortune.com/2026/05/13/behold-the-googlebook/)
 
-### **[OpenAI]** OpenAI ARR $25B 돌파, 2026년 말 IPO 가능성
+### **[OpenAI]** ARR $25B 돌파, 2026년 말 IPO 가능성
 - MS와의 독점 파트너십 종료(4/27)로 AWS·GCP 판매 가능
 - 출처: [Air Street Press](https://press.airstreet.com/p/state-of-ai-may-2026)
 
-### **[EU AI Act]** EU, AI 옴니버스 정치적 합의 도달 (5/7)
+### **[EU AI Act]** AI 옴니버스 정치적 합의 도달 (5/7)
 - 투명성 의무는 8월 시행, 규제 샌드박스 마감은 2027년 8월로 연기
 - 출처: [Council of the EU](https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/)
 
@@ -33,7 +33,7 @@ title: Daily AI News for FE
 
 ---
 
-## 💻 FE 개발자용
+## 💻 코딩 & 도구
 
 ### **[Next.js]** Next.js 16.2, AI 에이전트 친화 기능 강화
 - 터미널 디버깅·앱 인스펙션 개선으로 브라우저 없이 AI 코딩 지원
@@ -54,4 +54,3 @@ title: Daily AI News for FE
 ### **[Puck AI]** Puck AI, React 컴포넌트 기반 AI 페이지 빌더 공개
 - 기존 React 컴포넌트를 빌딩 블록으로 사용해 실제 렌더 가능한 UI 생성
 - 출처: [Puck Editor](https://puckeditor.com/blog/top-8-ai-libraries-for-react)
-
