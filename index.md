@@ -54,3 +54,4 @@ title: Daily AI News for FE
 ### **[Puck AI]** Puck AI, React 컴포넌트 기반 AI 페이지 빌더 공개
 - 기존 React 컴포넌트를 빌딩 블록으로 사용해 실제 렌더 가능한 UI 생성
 - 출처: [Puck Editor](https://puckeditor.com/blog/top-8-ai-libraries-for-react)
+
