@@ -13,8 +13,8 @@ body {
 
 .paper {
   max-width: 1100px;
-  margin: 32px auto;
-  padding: 48px 60px;
+  margin: 24px auto;
+  padding: 28px 48px;
   background: #fffdf6;
   box-shadow: 0 4px 28px rgba(0,0,0,0.1);
 }
@@ -22,26 +22,26 @@ body {
 /* ----- Masthead ----- */
 .masthead {
   text-align: center;
-  border-top: 5px double #1a1a1a;
-  border-bottom: 5px double #1a1a1a;
-  padding: 18px 0 14px;
-  margin-bottom: 28px;
+  border-top: 3px double #1a1a1a;
+  border-bottom: 3px double #1a1a1a;
+  padding: 8px 0 6px;
+  margin-bottom: 18px;
 }
 
 .masthead-edge {
-  font-size: 11px;
-  letter-spacing: 0.32em;
+  font-size: 9px;
+  letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: #555;
+  color: #666;
   margin: 0;
 }
 
 .masthead-title {
   font-family: "Playfair Display", "Noto Serif KR", Georgia, serif;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 900;
   letter-spacing: 0.04em;
-  margin: 8px 0;
+  margin: 2px 0;
   line-height: 1;
 }
 
@@ -131,9 +131,9 @@ body {
 /* Mobile */
 @media (max-width: 760px) {
   .paper {
-    padding: 24px 18px;
-    margin: 12px;
+    padding: 18px 16px;
+    margin: 8px;
   }
-  .masthead-title { font-size: 40px; }
+  .masthead-title { font-size: 24px; }
   .newspaper { column-count: 1; }
 }
