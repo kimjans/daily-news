@@ -3,7 +3,7 @@ layout: default
 title: The AI Morning
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 (2026-05-18)
+# 📬 오늘의 AI 뉴스 브리핑 (2026-05-19)
 
 > 매일 아침 배달되는 AI 뉴스 다이제스트
 
@@ -11,46 +11,46 @@ title: The AI Morning
 
 ## 🌐 AI 일반
 
-### **[Anthropic]** $950B 밸류에이션 펀딩 라운드 협상 중
-- 4월 ARR $30B 돌파, Fortune 10 중 8개사가 Claude 고객
-- 출처: [Fortune](https://fortune.com/2026/05/13/behold-the-googlebook/)
+### **[Google I/O]** Google I/O 2026 개막, 새 Gemini 모델 공개 예정
+- 오늘 오전 10시 PT 키노트, Gemini Spark·Omni·Intelligence 발표 전망
+- 출처: [Android Authority](https://www.androidauthority.com/what-to-expect-from-google-io-2026-3664979/)
 
-### **[OpenAI]** ARR $25B 돌파, 2026년 말 IPO 가능성
-- MS와의 독점 파트너십 종료(4/27)로 AWS·GCP 판매 가능
+### **[Anthropic]** Stainless 인수 발표 ($300M+ 추정)
+- OpenAI·Google·Cloudflare가 사용하던 SDK 자동 생성 인프라 확보
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/)
+
+### **[Anthropic]** 기업용 AI 채택률에서 OpenAI 첫 추월 — 34.4%
+- 4월 한 달간 3.8%p 상승, 성장 엔진은 Claude Code
+- 출처: [VentureBeat](https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead)
+
+### **[Claude Opus 4.7]** GA 출시 + Microsoft 365 Add-ins 정식 공개
+- Excel·PowerPoint·Word GA, Outlook은 유료 플랜 베타로 진입
+- 출처: [Anthropic](https://www.anthropic.com/news/claude-opus-4-7)
+
+### **[Cohere]** Aleph Alpha와 합병, 글로벌 엔터프라이즈 LLM 결합
+- Cohere 마지막 밸류 $6.8B, 미·독 엔터프라이즈 AI 통합 가속
 - 출처: [Air Street Press](https://press.airstreet.com/p/state-of-ai-may-2026)
-
-### **[EU AI Act]** AI 옴니버스 정치적 합의 도달 (5/7)
-- 투명성 의무는 8월 시행, 규제 샌드박스 마감은 2027년 8월로 연기
-- 출처: [Council of the EU](https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/)
-
-### **[GPT-5.5]** OpenAI, GPT-5.5 Instant 출시로 ChatGPT 기본 모델 교체 (5/5)
-- 같은 날 Subquadratic의 SubQ 1M-Preview도 공개 (12M 토큰 컨텍스트)
-- 출처: [LLM Stats](https://llm-stats.com/llm-updates)
-
-### **[AI Safety]** CAISI, Google·MS·xAI 모델 사전 평가 협약 체결
-- 기존 OpenAI·Anthropic에 이어 프론티어 모델 보안 테스트 확대
-- 출처: [CNBC](https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html)
 
 ---
 
 ## 💻 코딩 & 도구
 
-### **[Next.js]** Next.js 16.2, AI 에이전트 친화 기능 강화
-- 터미널 디버깅·앱 인스펙션 개선으로 브라우저 없이 AI 코딩 지원
-- 출처: [Next.js Blog](https://nextjs.org/blog/next-16-2-ai)
+### **[Cursor]** Composer 2.5 출시 — Opus 4.7·GPT-5.5 수준에 비용 1/10
+- Kimi K2.5 기반 + 25배 합성 학습, SWE-Bench Multilingual 79.8%
+- 출처: [The Decoder](https://the-decoder.com/cursors-composer-2-5-matches-opus-4-7-and-gpt-5-5-benchmarks-at-a-fraction-of-the-cost/)
 
-### **[Cursor]** Cursor, 자체 LLM 'Composer' 출시
-- 대부분의 작업을 30초 이내 처리, 경쟁 모델 대비 4배 빠른 속도
-- 출처: [SitePoint](https://www.sitepoint.com/claude-code-vs-cursor-vs-copilot-the-2026-developer-comparison/)
+### **[xAI]** Grok Build 코딩 에이전트 베타 출시 (5/14)
+- 로컬 우선 CLI, 최대 8개 병렬 에이전트, grok-code-fast-1로 SWE-Bench 70.8%
+- 출처: [Engadget](https://www.engadget.com/2173482/xai-coding-agent-grok-build/)
 
-### **[v0]** v0, GitHub 레포 임포트 지원으로 실제 코드베이스 작업 가능
-- 'v0로 UI 생성 → Cursor로 백엔드 → Vercel 배포' 워크플로우 정착
-- 출처: [SelectHub](https://www.selecthub.com/vibe-coding-tools/cursor-vs-vercel-v0/)
+### **[v0]** v0 채팅 내 터미널 명령 실행 지원 추가
+- 명령마다 권한 프롬프트, 샌드박스 부팅 50%+ 가속·스토리지 500MB 절감
+- 출처: [Vercel Changelog](https://vercel.com/changelog)
 
-### **[Vercel AI SDK]** Vercel AI SDK, React·Next.js용 AI UI 빌딩 표준으로 자리잡음
-- 프로바이더 무관 TypeScript 툴킷, 스트리밍 응답·훅 기본 제공
-- 출처: [GitHub vercel/ai](https://github.com/vercel/ai)
+### **[Claude Code]** Agent View 도입 — 다중 세션 통합 관리 CLI
+- 백그라운드 에이전트 상태·마지막 응답 한 화면에서 조회·전환
+- 출처: [Releasebot](https://releasebot.io/updates/anthropic/claude-code)
 
-### **[Puck AI]** Puck AI, React 컴포넌트 기반 AI 페이지 빌더 공개
-- 기존 React 컴포넌트를 빌딩 블록으로 사용해 실제 렌더 가능한 UI 생성
-- 출처: [Puck Editor](https://puckeditor.com/blog/top-8-ai-libraries-for-react)
+### **[GitHub Copilot]** Agentic 코드 리뷰·이슈→PR 에이전트 본격화
+- @workspace 컨텍스트 수집 후 샌드박스에서 PR 자동 생성·제출
+- 출처: [GitHub Copilot](https://github.com/features/copilot)
