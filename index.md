@@ -3,7 +3,7 @@ layout: default
 title: The AI Morning
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 (2026-05-19)
+# 📬 오늘의 AI 뉴스 브리핑 (2026-05-20)
 
 > 매일 아침 배달되는 AI 뉴스 다이제스트
 
@@ -11,46 +11,46 @@ title: The AI Morning
 
 ## 🌐 AI 일반
 
-### **[Google I/O]** Google I/O 2026 개막, 새 Gemini 모델 공개 예정
-- 오늘 오전 10시 PT 키노트, Gemini Spark·Omni·Intelligence 발표 전망
-- 출처: [Android Authority](https://www.androidauthority.com/what-to-expect-from-google-io-2026-3664979/)
+### **[Google I/O]** Gemini 3.5 Flash GA — 3.1 Pro 능가하는 'Frontier Flash'
+- 거의 모든 벤치마크에서 3.1 Pro 상회, 입력 $1.50/출력 $9 per 1M(3.1 Pro 대비 약 40% 저렴), 모든 사용자에 즉시 제공
+- 출처: [Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/)
 
-### **[Anthropic]** Stainless 인수 발표 ($300M+ 추정)
-- OpenAI·Google·Cloudflare가 사용하던 SDK 자동 생성 인프라 확보
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/)
+### **[Google I/O]** Gemini Omni Flash 첫 공개 — 이미지·오디오·비디오·텍스트 입력 → 비디오 출력
+- 추론과 생성을 통합한 Omni 시리즈 1호 모델, Gemini 앱에서 오늘부터 사용 가능
+- 출처: [9to5Google](https://9to5google.com/2026/05/19/google-io-2026-news/)
 
-### **[Anthropic]** 기업용 AI 채택률에서 OpenAI 첫 추월 — 34.4%
-- 4월 한 달간 3.8%p 상승, 성장 엔진은 Claude Code
-- 출처: [VentureBeat](https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead)
+### **[Google I/O]** Gemini Spark 공개 — '24/7 개인 에이전트'
+- 연결된 앱 정보를 추론해 사용자 위임 하에 행동 수행, AI Ultra $100/월 티어로 출시
+- 출처: [Tom's Guide](https://www.tomsguide.com/news/live/google-io-2026-live-news-updates)
 
-### **[Claude Opus 4.7]** GA 출시 + Microsoft 365 Add-ins 정식 공개
-- Excel·PowerPoint·Word GA, Outlook은 유료 플랜 베타로 진입
-- 출처: [Anthropic](https://www.anthropic.com/news/claude-opus-4-7)
+### **[Google I/O]** AI Search 대대적 개편 + Universal Cart 도입
+- 검색 에이전트가 웹 스캔해 작업 수행, Gemini·YouTube·Gmail 가로지르는 통합 장바구니 여름 출시
+- 출처: [CNN Business](https://www.cnn.com/2026/05/19/tech/google-search-bar-updates-2026)
 
-### **[Cohere]** Aleph Alpha와 합병, 글로벌 엔터프라이즈 LLM 결합
-- Cohere 마지막 밸류 $6.8B, 미·독 엔터프라이즈 AI 통합 가속
-- 출처: [Air Street Press](https://press.airstreet.com/p/state-of-ai-may-2026)
+### **[Anthropic]** Stainless 인수 공식 확정 ($300M+)
+- Anthropic·OpenAI·Google·Meta·Cloudflare 공식 SDK 컴파일러 보유사 인수, AI 개발자 워크플로 통합 가속
+- 출처: [Asanify](https://asanify.com/blog/news/ai-sdk-consolidation-may-19-2026/)
 
 ---
 
 ## 💻 코딩 & 도구
 
-### **[Cursor]** Composer 2.5 출시 — Opus 4.7·GPT-5.5 수준에 비용 1/10
-- Kimi K2.5 기반 + 25배 합성 학습, SWE-Bench Multilingual 79.8%
-- 출처: [The Decoder](https://the-decoder.com/cursors-composer-2-5-matches-opus-4-7-and-gpt-5-5-benchmarks-at-a-fraction-of-the-cost/)
+### **[Claude Code]** Routines 발표 — 자동화 워크플로 클라우드 실행
+- 스케줄·API·이벤트 트리거로 코딩 작업 자동 실행, 사용자 크론·서버 유지 불필요
+- 출처: [InfoQ](https://www.infoq.com/news/2026/05/anthropic-routines-claude/)
 
-### **[xAI]** Grok Build 코딩 에이전트 베타 출시 (5/14)
-- 로컬 우선 CLI, 최대 8개 병렬 에이전트, grok-code-fast-1로 SWE-Bench 70.8%
-- 출처: [Engadget](https://www.engadget.com/2173482/xai-coding-agent-grok-build/)
-
-### **[v0]** v0 채팅 내 터미널 명령 실행 지원 추가
-- 명령마다 권한 프롬프트, 샌드박스 부팅 50%+ 가속·스토리지 500MB 절감
-- 출처: [Vercel Changelog](https://vercel.com/changelog)
-
-### **[Claude Code]** Agent View 도입 — 다중 세션 통합 관리 CLI
-- 백그라운드 에이전트 상태·마지막 응답 한 화면에서 조회·전환
+### **[Claude Code]** Fast Mode 기본 모델이 Opus 4.7로 승격
+- 백그라운드 세션용 `--add-dir`·`--mcp-config`·`--permission-mode` 등 신규 플래그 추가, `/resume`이 bg 세션도 지원
 - 출처: [Releasebot](https://releasebot.io/updates/anthropic/claude-code)
 
-### **[GitHub Copilot]** Agentic 코드 리뷰·이슈→PR 에이전트 본격화
-- @workspace 컨텍스트 수집 후 샌드박스에서 PR 자동 생성·제출
-- 출처: [GitHub Copilot](https://github.com/features/copilot)
+### **[v0]** AGENTS.md 지원 + 브라우저 로그 포워딩 + next-browser(실험)
+- `create-next-app`에 AGENTS.md 통합, 에이전트가 콘솔 로그 직접 읽어 디버그, 풀스택 Next.js 샌드박스로 발전
+- 출처: [Vercel](https://vercel.com/blog/introducing-the-new-v0)
+
+### **[Next.js]** 5월 보안 릴리스 — 13건 advisory 일괄 패치
+- DoS·미들웨어 우회·SSRF·캐시 포이즈닝·XSS 등 다중 취약점 코디네이트 패치
+- 출처: [Vercel Changelog](https://vercel.com/changelog/next-js-may-2026-security-release)
+
+### **[OpenAI]** Codex 모바일 앱 전 플랜 확대 (iOS·Android)
+- ChatGPT 앱 내 통합으로 코딩 세션 원격 모니터링·조작, 프리뷰가 전 사용자에 개방
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/)
