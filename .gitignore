@@ -1,0 +1,4 @@
+.autopush.log
+.autopush.stdout.log
+.autopush.stderr.log
+.DS_Store
