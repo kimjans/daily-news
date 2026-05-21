@@ -28,6 +28,10 @@ WebSearch를 사용해 **지난 24시간 이내의 최신 AI 뉴스**를 두 카
 - 검색 키워드 예시: "AI coding tools", "Cursor", "GitHub Copilot", "v0", "React AI", "Next.js AI", "AI UI generation"
 - AI 코딩 어시스턴트, 프론트엔드 도구, UI 생성 AI, 개발자 플랫폼 등
 
+### 카테고리 3: 💾 메모리 반도체 (최대 5개)
+- 검색 키워드 예시: "DRAM price 2026", "HBM supply", "memory semiconductor news", "Samsung SK Hynix Micron", "NAND flash market", "memory spot price", "data center memory demand"
+- DRAM·NAND·HBM 가격 동향, 삼성·SK하이닉스·마이크론 생산·투자 소식, 데이터센터 수요, 공급망 이슈, 반도체 팹 증설 등
+
 ### 뉴스 포맷
 각 뉴스는 다음 마크다운 형식으로:
 
@@ -113,6 +117,12 @@ title: The AI Morning
 ---
 
 ## 💻 코딩 & 도구
+
+[뉴스 항목들]
+
+---
+
+## 💾 메모리 반도체
 
 [뉴스 항목들]
 ```
