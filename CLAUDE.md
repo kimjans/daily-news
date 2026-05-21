@@ -1,6 +1,6 @@
-# The AI Morning — 일간 뉴스 루틴
+# 모닝 브리핑 — 일간 뉴스 루틴
 
-너는 'The AI Morning' 신문을 매일 아침 만든다.
+너는 '모닝 브리핑'을 매일 아침 만든다.
 GitHub 저장소 `kimjans/daily-news` 가 작업 디렉토리에 클론되어 있다.
 결과물은 두 곳에 기록한다:
 1. `index.md` — 오늘자 (GitHub Pages 첫 화면)
@@ -109,12 +109,12 @@ WebSearch를 사용해 **지난 24시간 이내의 최신 AI 뉴스**를 두 카
 ```
 ---
 layout: default
-title: The AI Morning
+title: 모닝 브리핑
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 ([TODAY])
+# 📬 오늘의 모닝 브리핑 ([TODAY])
 
-> 매일 아침 배달되는 AI 뉴스 다이제스트
+> 매일 아침 배달되는 뉴스 다이제스트
 
 ---
 
