@@ -1,85 +1,75 @@
 ---
 layout: default
-title: 모닝 브리핑
+title: The AI Morning
 ---
 
-# 📬 오늘의 모닝 브리핑 (2026-05-21)
+# 📬 오늘의 AI 뉴스 브리핑 (2026-05-22)
 
-> 매일 아침 배달되는 뉴스 다이제스트
+> 매일 아침 배달되는 AI 뉴스 다이제스트
 
 ---
 
 ## 🌐 AI 일반
 
-### **[OpenAI]** AI가 80년 미해결 에르되스 기하학 추측 반증 — 수학 원리를 스스로 발견하는 첫 사례
-- OpenAI 추론 모델이 1946년 Paul Erdős가 제기한 '평면 단위거리 문제' 추측을 반증. 대수적 정수론을 기하학에 연결하는 독창적 증명으로, Fields Medal 수상자 팀 가워스가 검증 완료. 2026년 들어 AI가 해결한 에르되스 문제만 15개
-  - 💡 *에르되스 추측 = 수학자 Paul Erdős가 평생 미해결로 남긴 난제 모음. '단위거리 문제'는 평면 위 n개 점 사이에 거리가 1인 쌍이 최대 몇 개인가를 묻는 문제로, 정사각형 격자가 최적이라는 80년 통설을 AI가 뒤집음*
-  - 🔍 *AI가 단순 보조 도구에서 원리를 스스로 발견하는 주체로 전환되는 변곡점. 수학·과학·공학 연구에서 AI와의 공동 연구가 선택이 아닌 필수가 되는 흐름이 가속될 것*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/) *(5/20)*
+### **[OpenAI]** IPO 비밀 파일링 5/22 임박 — 9월 공개 상장, $8,500억 기업가치 목표
+- OpenAI가 골드만삭스·모건스탠리와 함께 SEC에 비밀 IPO 초안을 5/22 제출할 것으로 알려짐. 공개 상장 목표 시점은 2026년 9월, 사모 투자자 기준 기업가치 $8,500억 이상. Anthropic·SpaceX도 동시에 IPO를 추진 중
+  - 💡 *비밀 파일링(Confidential Filing) = SEC에 초안을 비공개로 먼저 제출하는 절차. 공식 S-1 공개 전 SEC 피드백을 받을 수 있어 대형 기업이 선호*
+  - 🔍 *IPO 이후 기관 수급과 주주 압박이 커지면 Claude·ChatGPT 가격 정책과 API 서비스 우선순위가 빠르게 변할 수 있음. 장기 계약 협상 중이라면 IPO 전·후 조건을 분리해 검토할 것*
+- 출처: [CNBC](https://www.cnbc.com/2026/05/20/openai-ipo-filing.html) *(5/20)*
 
-### **[Anthropic]** Q2 첫 흑자 전망 — 연 매출 $109억·운영이익 $5.59억, IPO는 Q4 2026 가닥
-- 2분기 연환산 매출 $109억, 운영이익 $5.59억 예상으로 창사 후 첫 흑자 달성이 유력. 당초 2028년 전망보다 2년 앞당겨. 기업가치 $9000억 평가로 $600억+ 규모 IPO를 Q4 2026에 추진 중
-  - 🔍 *흑자 전환은 Anthropic이 외부 투자 없이도 Claude 서비스를 유지할 체력이 생겼다는 의미. IPO 압박이 커질수록 제품 로드맵과 가격 정책이 공격적으로 바뀔 가능성도 있음*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/) *(5/20)*
+### **[Anthropic]** SpaceX와 월 $12.5억 컴퓨팅 계약 체결 — 2029년까지 총 약 $450억
+- SpaceX IPO 파일링을 통해 공개. Anthropic이 SpaceX의 Colossus 슈퍼컴퓨팅 인프라에 월 $1.25B를 지불하기로 계약. 앞서 체결한 AWS 10년 $1,000억+ 계약에 이은 두 번째 대형 컴퓨팅 파트너십으로 Claude 추론 인프라 다변화 전략을 확인
+  - 💡 *Colossus = 테네시 주 멤피스에 구축된 xAI·SpaceX 공동 슈퍼컴퓨팅 클러스터. GPU 수십만 장 규모로 AI 추론·학습에 임대*
+  - 🔍 *Anthropic이 특정 클라우드에 종속되지 않고 여러 공급자를 분산 활용하는 전략을 굳히는 중. 단기적으로 Claude API 가격 인하 기대보다 인프라 확장 속도에 주목할 것*
+- 출처: [Axios](https://www.axios.com/2026/05/21/ai-news-cycle-openai-anthropic-spacex) *(5/21)*
 
-### **[Google]** Gemini 3.5 Flash로 가격 전쟁 선제 — DeepMind, Contextual AI 연구진 20명+ 영입
-- Axios 분석 기사(5/21)에서 Google은 '가장 좋은 모델' 경쟁보다 속도·비용 우위에 베팅. Gemini 3.5 Flash는 경쟁사 대비 절반~1/3 가격으로 프론티어급 성능 제공. AI Search 개편으로 단문 쿼리와 장문 대화를 하나의 검색창에서 처리하며, YouTube "Ask YouTube"(텍스트 답변+영상 링크)도 출시. DeepMind가 Contextual AI 연구자 20명 이상을 $8000만~$9000만 라이선스 계약으로 영입
-  - 💡 *Contextual AI = 기업용 RAG 솔루션에 특화된 스타트업. RAG(검색 증강 생성)란 LLM이 외부 데이터를 실시간으로 참조해 답변 정확도를 높이는 기법*
-  - 🔍 *Google이 '더 싼 프론티어 모델' 전략을 확고히 할수록 비용 민감한 API 사용자에게 Gemini 3.5 Flash 전환 타당성이 높아짐. 가격·성능 벤치마크를 재검토할 시점*
-- 출처: [Axios](https://www.axios.com/2026/05/21/google-ai-anthropic-openai-war) *(5/21)*
+### **[Anthropic]** Microsoft Maia 200 칩 협상 중 — Azure 서버 임대로 세 번째 컴퓨팅 파트너 추가 모색
+- Anthropic이 Microsoft의 자체 AI 칩 Maia 200 탑재 Azure 서버 임대를 협의 중. 아직 초기 단계로 최종 계약 미확정. Microsoft 입장에서는 Amazon·Google에 뒤처진 자체 AI 실리콘 임대 사업의 첫 대형 외부 고객을 확보하는 의미
+  - 💡 *Maia 200 = Microsoft가 자체 개발한 2세대 AI 가속 칩. Nadella CEO 발표 기준 동급 GPU 대비 토큰당 비용 30%+ 절감*
+  - 🔍 *협상이 성사되면 Anthropic은 AWS·SpaceX·Azure 세 곳에서 동시에 컴퓨팅을 조달하게 됨. 컴퓨팅 공급 과잉이 아닌 부족 시대에 다원화 전략이 안정적인 Claude 가용성을 보장하는 핵심*
+- 출처: [CNBC](https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html) *(5/21)*
 
-### **[정책]** Trump AI 행정명령 서명 임박 — 신모델 출시 90일 전 정부 선공유 자발적 협약
-- 주요 AI 기업 CEO들을 백악관으로 초청해 AI 행정명령 서명 예정. 연구소가 신규 모델을 공개하기 90일 전 정부(NSA 포함)와 먼저 공유하는 자발적 협약이 핵심. 일부 기업은 14일 단축안을 선호해 협상 진행 중
-  - 🔍 *"자발적"이지만 대형 랩들이 서명하면 사실상 업계 표준이 됨. 모델 출시 일정이 수개월 늦춰질 수 있는 변수이므로, 새 모델 의존 제품을 기획 중이라면 완충 일정을 잡아두는 것이 안전*
-- 출처: [Axios](https://www.axios.com/2026/05/20/ai-trump-executive-order-white-house-infighting) *(5/20)*
+### **[정책]** 트럼프 AI 행정명령 5/21 서명 연기 — 90일 모델 선공유 협약 세부안 합의 난항
+- 주요 AI 랩 CEO를 소집해 5/21 서명 예정이었던 AI 행정명령이 연기됨. 신규 모델을 공개 90일 전 NSA 등 정부 기관과 선공유하는 자발적 협약이 핵심인데, 일부 기업이 14일 단축안을 요구하며 협상 지속
+  - 🔍 *"자발적" 협약이지만 주요 랩이 서명하면 사실상 업계 표준으로 굳어짐. 새 모델 의존 제품 로드맵을 기획 중이라면 90일 지연을 일정 버퍼로 미리 반영하는 것이 안전*
+- 출처: [Axios](https://www.axios.com/2026/05/20/ai-trump-executive-order-white-house-infighting) *(5/21)*
 
-### **[Nvidia]** Q1 FY27 매출 $816억 — 데이터센터 +92% YoY, 차기 분기 $910억 가이던스
-- FY2027 1분기 매출 $816억(+85% YoY), 데이터센터 $752억(+92% YoY), 순이익 $583억(+200% YoY). CEO Jensen Huang "에이전트 AI가 도래해 수요가 포물선 성장 중". 다음 분기 매출 $910억 가이던스로 예상치 상회
-  - 🔍 *데이터센터 매출이 전체의 92%를 차지한다는 건 AI 인프라 투자 수요가 여전히 가속 중이라는 신호. HBM·DRAM 수요도 동반 상승이 불가피하며, AI 인프라 관련 판단에 직접 참고 가능한 지표*
-- 출처: [CNBC](https://www.cnbc.com/2026/05/20/nvidia-nvda-earnings-report-q1-2027.html) *(5/20)*
+### **[Google]** Gemini Spark — Gmail·Calendar·외부 앱 연동 24/7 에이전트, AI Ultra 구독자 대상 곧 출시
+- Google I/O 2026에서 발표된 Gemini 기반 개인 AI 에이전트. 장시간 자율 작업 처리가 가능하며 Gmail, Google Calendar, Instacart, OpenTable 등 외부 앱에 직접 연결. Google Cloud 전용 VM에서 로컬 기기 없이 상시 실행. AI Ultra 구독자 대상 다음 주 출시 예정
+  - 💡 *Gemini Spark = Gemini 모델 + Google Antigravity(에이전트 프레임워크) 조합으로 구동. Google AI Ultra는 월 $249.99 최상위 구독 플랜*
+  - 🔍 *AI 에이전트가 이메일·캘린더·예약을 직접 처리하는 단계로 진입. 업무 자동화를 검토 중이라면 Spark 연동 가능한 앱 목록과 권한 범위를 먼저 확인할 것*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/) *(5/19)*
 
 ---
 
 ## 💻 코딩 & 도구
 
-### **[Cursor]** Composer 2.5 출시 — Kimi K2.5 기반, Opus 4.7 수준 성능을 절반 가격에
-- 5/18 출시된 Cursor의 차세대 에이전트 모델. Kimi K2.5 기반으로 SWE-Bench에서 Opus 4.7과 동등 수준, CursorBench 70% 달성. 입력 토큰 $0.50/M으로 경쟁사 대비 저렴. 장시간 복잡한 코딩 세션에서 지시 이행 신뢰도와 협업 일관성을 크게 개선
-  - 💡 *Kimi K2.5 = Moonshot AI(중국)가 개발한 대형 언어 모델. 긴 컨텍스트와 코딩 성능이 강점*
-  - 🔍 *Opus 4.7급 성능을 절반 가격에 쓸 수 있다면 Cursor 내 기본 에이전트로 전환할 이유가 충분. 기존 워크플로를 Composer 2.5로 재테스트해볼 것*
-- 출처: [DevOps.com](https://devops.com/cursors-composer-2-5-brings-smarter-more-reliable-ai-coding-agents/) *(5/18)*
+### **[GitHub Copilot]** 6월 1일부터 AI Credits 사용량 기반 과금 전환 — 자동완성 무제한, 챗·에이전트는 차감
+- Copilot Pro($10/월)는 월 $10 상당 AI Credits 포함. 코드 자동완성·Next Edit 제안은 무제한 유지. Copilot Chat·CLI·클라우드 에이전트·Spark 사용 시 AI Credits 차감. 월구독자는 6/1 자동 전환, 연간 구독자는 별도 선택
+  - 💡 *AI Credits = 1크레딧 = $0.01 USD. 모델·기능별 입출력 토큰 소비량 기준으로 차감되는 사용량 단위*
+  - 🔍 *에이전트·Copilot Chat을 자주 쓰는 경우 6월 1일 이전에 GitHub 청구 개요에서 사용 패턴을 미리 확인할 것. 예상보다 Credits를 빠르게 소진할 수 있음*
+- 출처: [GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/) *(4/27)*
 
-### **[Google I/O]** Antigravity 2.0 — AI 에이전트가 12시간 만에 OS 자동 개발, Android vibe coding 지원
-- I/O 2026 기조연설에서 12시간 안에 작동하는 운영체제를 생성해 시연. Android SDK·에뮬레이터·실기기 테스트를 자동화하는 Android CLI 안정화로 Android 앱 vibe coding도 본격 지원
-  - 🔍 *단순 웹 앱을 넘어 OS·네이티브 앱 수준의 복잡한 소프트웨어도 에이전트가 초안을 잡는 시대에 진입. Android 앱 프로토타입을 빠르게 검증하는 데 Antigravity를 활용해볼 시점*
-- 출처: [Digit.in](https://www.digit.in/news/general/google-io-2026-google-claims-antigravity-20-created-an-operating-system-in-12-hours-brings-vibe-coding-to-android.html) *(5/19)*
-
-### **[Google I/O]** WebMCP 오픈 표준 — 브라우저 AI 에이전트용 웹 도구 인터페이스, Chrome 149 실험 시작
-- AI 에이전트가 웹사이트의 구조화된 도구를 직접 호출할 수 있는 오픈 웹 표준 제안. Chrome 149 Origin Trial 시작(5/19). 기존 MCP의 브라우저 확장판으로 웹사이트가 에이전트용 API를 표준 방식으로 노출
-  - 💡 *Origin Trial = 신기능을 정식 표준화 전에 실제 사이트에서 한정 테스트하는 Chrome의 실험 프로그램. 개발자가 신청하면 한시적으로 사용 가능*
-  - 🔍 *웹 서비스를 만드는 경우 WebMCP 지원을 미리 검토해두면 향후 AI 에이전트 트래픽을 자연스럽게 수용하는 구조를 선점할 수 있음*
-- 출처: [Google Developers Blog](https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/) *(5/19)*
-
-### **[Google I/O]** Android Studio 마이그레이션 에이전트 — 수주 작업을 수시간으로, 네이티브 Kotlin 자동 전환
-- AI 에이전트가 기존 Android 앱 코드를 네이티브 Kotlin으로 자동 마이그레이션. Gemini API 기반 Managed Agents로 단일 API 호출로 격리 에이전트 즉시 실행 가능. Google AI Studio에서도 Kotlin 지원 및 Cloud Run·Firebase 원클릭 배포 추가
-  - 🔍 *레거시 Android 코드베이스를 유지하고 있다면 마이그레이션 에이전트가 작업량을 크게 줄여줄 가능성이 있음. 베타 기간 중 샘플 프로젝트로 먼저 테스트해볼 것*
-- 출처: [Google Developers Blog](https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/) *(5/19)*
+### **[GitHub Copilot]** Copilot 코드 리뷰, 6/1부터 GitHub Actions 분 소모 시작
+- GitHub Copilot의 PR 코드 리뷰 기능이 6월 1일부터 GitHub Actions 분(minutes)을 소비. 무료 플랜은 월 2,000분 한도 내 사용 가능. 공개 저장소(오픈소스)는 Actions 분 무제한이라 영향 없음
+  - 🔍 *비공개 저장소를 사용하는 개발자는 PR 리뷰 자동화 빈도에 따라 Actions 분 잔량을 사전 점검해둘 것. 무료 플랜 2,000분은 빠르게 소진될 수 있음*
+- 출처: [GitHub Changelog](https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026/) *(4/27)*
 
 ---
 
 ## 💾 메모리 반도체
 
-### **[Samsung]** 18일 파업 1시간 전 막판 타결 — 6.2% 임금 인상·반도체 10.5% 보너스, 주가 7.6% 급등
-- 5/20 파업 개시 1시간 전 삼성 노사 잠정 합의. 2026년 평균 임금 6.2% 인상, 반도체 사업부 10.5% 이익 연동 주식 보너스(10년 이상 분할 지급). 조합원 투표는 5/22~27 예정, 결과 확정 전까지 파업 유예
-  - 🔍 *HBM4 공급 차질 리스크가 일단 해소되며 삼성 주가 7.6% 반등. 조합원 투표 결과에 따라 파업이 재개될 가능성이 남아 있어 Q3 납기 불확실성은 완전히 해소되지 않은 상태*
-- 출처: [CNBC](https://www.cnbc.com/2026/05/21/samsung-electronics-union-strike-suspended-wage-deal-bonuses.html) *(5/21)*
+### **[Samsung]** 삼성 노조 임금합의안 찬반투표 5/22 시작 — 5/27까지, 부결 시 파업 재개
+- 5/20 잠정 합의된 임금 협약안(평균 6.2% 인상, 반도체 사업부 10.5% 이익연동 주식 보너스)에 대한 조합원 투표가 5/22부터 5/27까지 진행. 부결 시 18일 일정 파업이 재개될 수 있어 HBM4 출하 일정 불확실성은 아직 잔존
+  - 🔍 *5/27 투표 결과 전까지 파업 재개 리스크가 남아 있음. HBM4 Q3 납기에 의존하는 AI 서버 수급 계획은 결과 확인 후 조정하는 것이 안전*
+- 출처: [Seeking Alpha](https://seekingalpha.com/news/4595337-samsung-strike-put-on-hold-wage-deal-being-put-to-vote-micron-touts-demand) *(5/21)*
 
-### **[SK Hynix]** 청주 마스크 팹을 HBM 수율 전담으로 전환 — 후공정 병목 해소 전략
-- SK Hynix가 청주 마스크 팹을 웨이퍼 테스트 중심으로 재편한다고 Digitimes가 5/21 보도. HBM은 12~16장의 다이를 적층하는 구조상 패키징 단계의 수율이 전체 공급량을 좌우. 웨이퍼 제조와 테스트를 청주 캠퍼스 내에서 직결해 불량 피드백 루프를 단축하는 전략
-  - 💡 *마스크 팹 = 반도체 노광 공정에 사용되는 포토마스크를 제조하는 시설. HBM 테스트·패키징 전용으로 전환하면 주력 생산 흐름과 분리해 수율 개선에 집중 가능*
-  - 🔍 *SK Hynix의 내부 재편으로 HBM 공급 차질 리스크가 낮아질 수 있음. 삼성 파업 여파로 공급 불확실성이 높은 상황에서 SK Hynix의 수율 우위가 더욱 부각될 전망*
-- 출처: [Digitimes](https://www.digitimes.com/news/a20260521VL210/sk-hynix-hbm-fab-packaging-wafer.html) *(5/21)*
+### **[SK Hynix]** 삼성 파업 타결 직후 주가 +11%·목표가 2배 상향 — 메모리 슈퍼사이클 수혜 기대
+- 삼성 노사 잠정 합의 이후 SK Hynix 주가가 11% 급등, 일부 증권사는 목표주가를 기존의 두 배로 상향. HBM3E 글로벌 점유율 62%를 보유한 SK Hynix가 삼성 공백기에 수요를 흡수하며 메모리 슈퍼사이클의 최대 수혜자가 될 것이라는 기대가 반영
+  - 🔍 *삼성 파업 우려가 해소됐음에도 시장은 HBM 메모리 슈퍼사이클이 SK Hynix 주도로 진행될 것으로 보고 있음. 메모리 수요 확대 흐름은 파업 결과와 무관하게 지속 중*
+- 출처: [Ad-hoc News](https://www.ad-hoc-news.de/boerse/news/ueberblick/sk-hynix-doubles-price-target-and-runs-11-percent-higher-as-samsung-labor/69392775) *(5/21)*
 
-### **[SK Hynix]** Yongin 팹 증설 일정 조기 착수 — AI 메모리 수요가 예측치 초과
-- SK Hynix가 경기도 용인 신규 팹 증설 일정을 앞당겨 착수. AI 서비스 확산으로 DRAM·HBM 수요가 예상을 초과하자 클린룸 구축·장비 반입을 기존 계획보다 빠른 속도로 진행 중
-  - 🔍 *Goldman Sachs는 2026년 DRAM 공급 부족률을 4.9%로 상향 조정 — 15년 만에 최악의 수급 불균형. Nvidia 실적 호조와 에이전트 AI 확산이 메모리 수요를 예측치 이상으로 끌어올리는 중*
-- 출처: [Digitimes](https://www.digitimes.com/news/a20260518VL210/sk-hynix-fab-capacity-demand-production.html) *(5/18)*
+### **[메모리 시장]** Q2 DRAM 계약가 +58~63%, NAND +70~75% — 15년 만에 최대 분기 상승폭
+- TrendForce 집계 기준 2026년 2분기 DRAM 계약가가 전분기 대비 58~63% 급등, NAND는 70~75% 상승. HBM 공급 부족률 5.1%로 2011년 이후 최악. AI 서버용 수요가 예측치를 초과하며 신규 팹이 가동되는 2026년 말까지 공급 부족 지속 전망
+  - 🔍 *AI 인프라용 메모리를 직접 조달하는 기업은 비용 급증에 대비해 장기 공급 계약 여부를 점검할 것. 스폿 구매 의존도가 높을수록 Q3~Q4 조달 비용 리스크가 큼*
+- 출처: [BigGo Finance](https://finance.biggo.com/news/Vta3FZ4B6tLPsnrZ5pOO) *(TrendForce 기반)*
