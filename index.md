@@ -3,7 +3,7 @@ layout: default
 title: The AI Morning
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 (2026-05-23)
+# 📬 오늘의 AI 뉴스 브리핑 (2026-05-24)
 
 > 매일 아침 배달되는 AI 뉴스 다이제스트
 
@@ -11,55 +11,70 @@ title: The AI Morning
 
 ## 🌐 AI 일반
 
-### **[Anthropic]** Andrej Karpathy, Anthropic 사전훈련팀 합류 — Claude 고도화에 업계 스타급 인재
-- OpenAI 공동창업자이자 전 Tesla AI 총괄 Andrej Karpathy가 Anthropic에 합류해 사전훈련 리서치팀 리드 역할을 맡음. Claude 모델 자체를 활용해 훈련 프로세스를 자동화·가속화하는 새 팀 구성이 핵심 임무. AI 업계 최고급 인재 확보 경쟁에서 Anthropic의 공격적 행보 확인.
-  - 💡 *사전훈련(pre-training) = 방대한 데이터로 모델의 기초 언어 능력을 형성하는 초기 단계. 이 단계의 품질이 모델 능력의 상한선을 결정*
-  - 🔍 *업계 최고 연구자 합류로 차세대 Claude 모델의 질적 도약 시점이 앞당겨질 수 있음. Anthropic API를 프로덕션에 쓰는 팀은 모델 업그레이드 일정을 더 공격적으로 잡아도 좋음*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/) *(5/19)*
+### **[Meta]** 8,000명 해고·6,000개 채용 취소 — Zuckerberg "AI 에이전트가 이제 업무를 주도"
+- Meta가 전체 인력의 약 10%인 8,000명을 정리해고하고 6,000개 채용 공고를 취소. Zuckerberg는 내부 메모에서 "AI 시대에 성공은 당연한 게 아니다"며 배경을 설명. 해고와 동시에 직원 PC의 마우스 클릭·키스트로크를 모니터링해 AI 모델 훈련에 활용한 사실도 드러남.
+  - 🔍 *AI 에이전트로 대체 가능한 업무 범위가 빠르게 확장되는 신호. Meta의 $1,450억 AI 인프라 투자 규모를 보면 이 흐름은 업계 전반으로 가속될 것*
+- 출처: [NPR](https://www.npr.org/2026/05/20/nx-s1-5826917/meta-layoffs-ai-jobs) *(5/20)*
 
-### **[Anthropic]** Stainless 인수 — OpenAI·Google이 쓰던 SDK 자동생성 스타트업 $3억+에 확보
-- Anthropic이 OpenAI·Google·Cloudflare의 공식 API SDK를 자동 생성해 온 스타트업 Stainless를 인수. 인수가 비공개이나 $3억+ 로 보도. 인수 즉시 Stainless의 호스팅 서비스·SDK 생성기 종료 선언으로 경쟁사 개발 인프라 공급망을 차단하는 전략으로 해석됨. 기존 고객의 생성된 SDK는 계속 소유 가능.
-  - 💡 *Stainless = OpenAPI 명세에서 Python·TypeScript·Go·Java 등 다국어 SDK를 자동 생성해 주는 스타트업. 2022년 창업, Sequoia·a16z 투자*
-  - 🔍 *Claude API 공식 SDK가 Anthropic 내부 관리로 전환됨. OpenAI·Google은 SDK 자동화 파이프라인을 자체 구축해야 해 장기적으로 Anthropic 개발자 경험 우위가 굳어질 수 있음*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/) *(5/18)*
+### **[OpenAI]** AI, 1946년 Erdős 수학 추측 자동 반증 — "AI 수학의 이정표"
+- OpenAI 내부 범용 추론 모델이 Paul Erdős가 1946년 제시한 이산기하학 추측을 자율적으로 반증. Fields 메달리스트 Tim Gowers가 "AI 수학 역사상 가장 의미 있는 성과"라고 평가. 이전까지 AI의 수학 기여는 증명 보조 수준에 머물렀으나, 이번은 새 반례를 스스로 발견한 첫 사례.
+  - 💡 *Paul Erdős = 20세기 가장 많은 논문을 남긴 수학자. 이산기하학 = 점·선·다각형 등 이산 구조의 기하학적 성질을 연구하는 분야*
+  - 🔍 *AI가 '인간 감독 없는 수학 발견' 수준에 도달한 첫 사례. 과학·공학 분야 AI 자율 연구가 빠르게 현실화되고 있음*
+- 출처: [BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-may-23-2026) *(5/23)*
 
-### **[GitHub Copilot]** CNBC 보도 — 장애·임원 이탈로 시장점유율 51%까지 급락, Cursor는 29%로 급등
-- 5/22 CNBC 보도: GitHub Copilot이 잦은 서비스 중단과 핵심 임원 이탈로 신뢰 위기. Stack Overflow 조사에서 전문 개발자 시장점유율이 67%→51%로 급락. Cursor는 유저 50만→400만으로 성장하며 점유율 29% 확보. GitHub VP of Engineering이 "자사 안정성 기준 미달"을 공개 인정하며 긴급 안정화 조치 발표.
-  - 🔍 *AI 코딩 도구 시장이 단기간에 역전될 정도로 빠르게 재편 중. Copilot 의존도 높은 팀은 6월 1일 과금 전환 전에 대안 도구도 병행 평가할 것*
-- 출처: [Windows News](https://windowsnews.ai/article/github-copilot-battles-outages-and-rivals-as-microsofts-ai-coding-empire-shows-cracks.419302) *(5/22)*
+### **[Anthropic]** Jack Clark "12개월 내 노벨상급 AI 성과" 예측 — 동시에 "전멸 가능성 0 아냐" 경고
+- Anthropic 공동창업자 Jack Clark이 옥스퍼드 강연에서 12개월 내 AI가 노벨상급 과학 성과를 낼 것이라 예측. 동시에 해당 기술이 인류 전멸 위험 가능성을 '0이 아닌' 수준으로 인정하며 양면을 모두 공개. Anthropic은 현재 기업가치 $9,000억 전망 속 첫 분기 흑자를 기록 중.
+  - 🔍 *AI 선도 기업 내부에서도 리스크 인식과 속도 경쟁이 공존. Claude를 프로덕션에 도입한 팀은 모델 능력 급변에 대비한 장기 아키텍처 계획이 필요*
+- 출처: [BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-may-23-2026) *(5/23)*
+
+### **[Trump 행정부]** AI 안전 행정명령 전격 폐지 — Zuckerberg·Musk·Sacks 직접 청원 후 철회
+- Trump 백악관이 AI 안전 행정명령을 전격 폐지. Zuckerberg·Musk·David Sacks가 대통령에게 직접 연락해 철회를 요청한 직후 결정. 미국 AI 규제 완화 기조가 뚜렷해지며 글로벌 AI 정책 방향에 영향을 줄 전망.
+  - 💡 *David Sacks = Trump 행정부 'AI & Crypto Czar'. 실리콘밸리 벤처투자자 출신의 AI·암호화폐 정책 총괄*
+  - 🔍 *미국 AI 규제 완화로 단기 혁신 속도는 빨라지지만, EU AI Act와의 규제 격차가 벌어질 가능성에 주목. 글로벌 서비스 운영 팀은 지역별 규제 차이를 점검해 둘 것*
+- 출처: [BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-may-23-2026) *(5/23)*
+
+### **[Google]** Gemini Spark, MCP 통해 Canva·Instacart·OpenTable 자율 연동 수주 내 예정
+- Google I/O 2026에서 발표된 24/7 AI 에이전트 Gemini Spark가 수주 내 써드파티 서비스에서 자율 작업을 수행할 수 있게 됨. MCP(AI 에이전트의 외부 앱 표준 연동 프로토콜) 지원을 통해 Canva·Instacart·OpenTable 등 연동 예정. 미국 Ultra 구독자 대상 베타 우선 출시.
+  - 💡 *Gemini Spark = Google의 24/7 개인 AI 에이전트. 기기가 꺼진 상태에서도 백그라운드에서 복잡한 다단계 작업을 처리*
+  - 🔍 *일상 앱까지 AI 에이전트가 자율 연동되는 첫 본격 사례. Canva·Instacart를 업무에 쓰는 팀은 자동화 적용 가능 범위를 미리 점검해 볼 것*
+- 출처: [CNBC](https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html) *(5/19)*
 
 ---
 
 ## 💻 코딩 & 도구
 
-### **[GitHub Copilot]** 서비스 안정화 비상 — 1주일 개발 동결·컴포넌트별 실시간 상태 공개 선언
-- GitHub가 Copilot 신뢰성 위기 대응으로 1주일간 기능 개발을 전면 동결하고 안정성에만 집중. 전담 Copilot 안정화팀 구성, 컴포넌트별 실시간 서비스 상태 대시보드 공개를 약속. 지난 12개월간 주요 장애 48건 발생, Actions·PR·코어 Git 운영 전반에 영향.
-  - 🔍 *비공개 저장소 팀은 Copilot Chat·Actions 분 소비(6/1 시작) 이전에 실제 서비스 안정성 지표를 GitHub Status 페이지에서 직접 확인해 두는 것이 안전*
-- 출처: [GitHub Blog](https://github.blog/news-insights/company-news/bringing-more-transparency-to-githubs-status-page/) *(5/22)*
+### **[Anthropic]** Claude for Small Business 출시 — QuickBooks·PayPal·HubSpot·Canva 즉시 연동
+- Anthropic이 Claude for Small Business를 출시. QuickBooks(급여)·PayPal(인보이스)·HubSpot(영업)·Canva(마케팅)·Docusign·Google Workspace·Microsoft 365와 즉시 연동되는 사전 구성 워크플로우 제공. 별도 API 개발 없이 소규모 사업자도 월말 정산·영업 자동화를 Claude로 바로 처리 가능.
+  - 🔍 *Claude를 비즈니스 도구에 직접 연동하는 진입 장벽이 대폭 낮아짐. 소규모 팀도 맞춤 API 없이 즉시 활용 가능한지 anthropic.com/news에서 확인할 것*
+- 출처: [Anthropic](https://www.anthropic.com/news/claude-for-small-business)
 
-### **[Anthropic]** Claude Agent SDK, 6/15부터 구독과 별도 크레딧 풀로 분리 과금
-- 6월 15일부터 Agent SDK·`claude -p`·Claude Code GitHub Actions·서드파티 에이전트 사용이 구독 한도에서 분리돼 별도 월정액 크레딧으로 청구됨. Pro $20·Max 5x $100·Max 20x $200. 인터랙티브 Claude Code(터미널)와 Claude.ai 챗은 기존 구독 한도 그대로 유지. 크레딧은 매달 리셋되며 미사용분은 이월 불가.
-  - 💡 *`claude -p` = Claude Code를 비인터랙티브 스크립트 모드로 실행하는 플래그. CI/CD 파이프라인에서 자동 실행 시 주로 사용*
-  - 🔍 *CI/CD 파이프라인·스크립트에서 `claude -p`나 Agent SDK를 쓰는 경우 6/15 전에 월 토큰 소비량을 추산해 크레딧 한도 초과 여부를 미리 확인할 것*
-- 출처: [InfoWorld](https://www.infoworld.com/article/4171274/anthropic-puts-claude-agents-on-a-meter-across-its-subscriptions.html) *(5/2026)*
+### **[Anthropic]** Claude Managed Agents 신기능 — 드리밍·멀티에이전트 오케스트레이션·웹훅 추가
+- Anthropic이 개발자 플랫폼에 Claude Code·Opus API 한도 확대와 함께 신규 Managed Agents 기능(드리밍·멀티에이전트 오케스트레이션·결과 추적·웹훅)을 추가. Claude가 복잡한 다단계 에이전트 파이프라인을 자체 조율하는 수준으로 업그레이드됨.
+  - 💡 *드리밍(Dreaming) = Managed Agents의 비동기 추론 기능. 에이전트가 사용자 요청 없이도 백그라운드에서 지속적으로 작업을 수행하는 방식*
+  - 🔍 *멀티스텝 에이전트 파이프라인 구축 중이라면 웹훅·결과 추적 기능을 즉시 통합해 모니터링 체계를 갖추는 것이 중요*
+- 출처: [Releasebot](https://releasebot.io/updates/anthropic/claude)
 
-### **[Cursor]** ARR $20억 돌파·밸류에이션 $50B 협상 중 — B2B SaaS 최단기간 성장 기록
-- Cursor 개발사 Anysphere가 ARR $20억 돌파와 함께 프리머니 밸류에이션 $50B 시리즈 E 자금 조달 협상 진행 중. 유료 고객 100만+, 기업팀 5만+. Slack·Zoom·Snowflake를 넘어 B2B SaaS 최단기간 $20억 ARR 달성 기록 수립. AI 코딩 도구 시장에서 Copilot 대비 29% 점유율을 확보하며 경쟁 본격화.
-  - 🔍 *Cursor 엔터프라이즈 도입을 검토 중이라면 현재 가격 정책이 밸류에이션 급등 이후 변동될 가능성이 있어 지금 계약 조건을 확보해 두는 것이 유리할 수 있음*
-- 출처: [The Next Web](https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding) *(5/2026)*
+### **[MIT Technology Review]** "Code with Claude가 코딩의 미래를 보여줬다 — 원하든 원하지 않든"
+- MIT Technology Review가 Anthropic의 런던 개발자 이벤트 'Code with Claude'를 분석. AI 코딩이 단순 자동완성을 넘어 전체 코드베이스 설계·리팩터링을 처리하는 수준에 이르렀으며, 개발자 역할이 실행자에서 감독자로 빠르게 전환되고 있다고 평가.
+  - 🔍 *코딩 업무의 성격이 빠르게 바뀌고 있음. 반복 구현보다 아키텍처 결정·코드 리뷰 능력에 집중 투자할 타이밍*
+- 출처: [MIT Technology Review](https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/) *(5/21)*
 
 ---
 
 ## 💾 메모리 반도체
 
-### **[Micron]** 서울에 HBM4 설계 엔지니어 채용 공고 — 삼성 파업 틈새 인재 공략
-- 5/21 Micron이 서울 현지 HBM4 설계 아키텍트 상시직 채용 공고 게시, 연봉 최대 $214,000 제시. 삼성 파업 잠정 타결 직후 불안정한 노사 분위기를 겨냥한 타이밍. 현지 채용 방식으로 삼성·SK Hynix 엔지니어의 이직 장벽을 최소화. Micron은 이미 3월 HBM4 대량 양산을 개시한 상태.
-  - 💡 *HBM4 = 현세대 최고 대역폭 AI 메모리. Micron의 12단 적층 HBM4는 초당 2.8TB 대역폭으로 NVIDIA Vera Rubin 플랫폼 전용 설계*
-  - 🔍 *삼성의 HBM4 납기에 의존하는 AI 서버 계획은 인력 이탈 여부를 모니터링해야 할 리스크. 메모리 설계 인재 확보가 HBM4 점유율 레이스의 핵심 변수로 부상 중*
-- 출처: [Tech Times](https://www.techtimes.com/articles/316869/20260521/micron-posts-permanent-seoul-hbm-design-roles-targeting-samsung-engineers-strike-resolves.htm) *(5/21)*
+### **[Samsung]** 노조 찬반투표 진행 중 — 5/27 결과에 HBM4 공급 운명 달려
+- 삼성전자와 노조가 잠정 합의(성과급 10.5% 무제한 배분)에 서명했으나, 노조원 찬반투표가 5/22~27 진행 중. 가결 시 18일 파업 위기 해소, 부결 시 재파업 가능성. 5~6월이 HBM4 수율 안정화 핵심 시기로, NVIDIA·빅테크 AI 서버 납기에 직접 영향. JPMorgan은 파업 지속 시 삼성 영업이익 최대 $208억 손실 추산.
+  - 🔍 *5/27 투표 결과에 따라 삼성 HBM4 Q3 물량 확보 가능 여부가 결정됨. 삼성 HBM4 의존 AI 인프라 계획이 있다면 이번 주 결과를 반드시 모니터링할 것*
+- 출처: [Tom's Hardware](https://www.tomshardware.com/tech-industry/samsung-and-union-resume-talks-10-days-before-planned-18-day-chip-factory-strike) / [abhs.in](https://www.abhs.in/blog/samsung-18-day-strike-may-21-hbm-chip-production-20-billion-ai-supply-chain-2026) *(5/22-23)*
 
-### **[SK Hynix]** 가용 생산용량 사실상 소진 — 빅테크들이 팹 건설·EUV 장비 비용 직접 부담 제안
-- SK Hynix 경영진이 고객사에 추가 물량 없음을 통보. Amazon·Google·Meta·Microsoft가 EUV 장비(대당 최대 5,000억 원) 구매 비용을 직접 대주며 생산 라인을 확보하려는 전례 없는 제안을 진행 중. SK Hynix 측은 특정 고객 비용 부담 시 미래 물량 담보·가격 협상력 약화를 우려하며 신중한 입장.
-  - 💡 *EUV = 극자외선 리소그래피 장비. ASML만 독점 생산하며 HBM 등 첨단 반도체 양산에 필수. 대당 최대 5,000억 원*
-  - 🔍 *HBM·DRAM 물량 확보가 AI 인프라의 병목으로 굳어지는 중. 스폿 시장 조달 의존도가 높은 기업은 Q3~Q4 가용 물량 급감에 대비해 장기 공급 계약으로 전환을 검토할 것*
-- 출처: [Tom's Hardware](https://www.tomshardware.com/tech-industry/sk-hynix-customers-offer-to-buy-its-euv-machines-and-fund-new-fab-lines-as-memory-capacity-hits-zero) *(5/2026)*
+### **[HBM 시장]** 2026년 $546억 전망 — SK Hynix 62% 독주, 16-Hi HBM4 공급 경쟁 시작
+- Bank of America가 2026년 글로벌 HBM 시장 규모를 $546억(전년 대비 58% 성장)으로 추산. SK Hynix가 62% 점유율로 독주 중이며 Micron이 21%로 2위(삼성 17% 3위). 삼성·SK Hynix·Micron 3사가 NVIDIA 요청으로 16단 적층 HBM4 공급을 Q4 2026 목표로 동시 개발 중.
+  - 💡 *16-Hi HBM4 = 16단(Hi = 적층 단수) 구조의 차세대 HBM. 현재 주력 12-Hi 대비 용량·대역폭 대폭 향상, NVIDIA 차기 AI 가속기 탑재 예정*
+  - 🔍 *HBM4 공급 초기 물량은 이미 대부분 선약됨. 2026년 하반기 AI 서버 조달에서 16-Hi HBM4 포함 사양을 미리 확인해 두는 것이 중요*
+- 출처: [Tweaktown](https://www.tweaktown.com/news/109495/sk-hynix-samsung-and-micron-fighting-for-nvidia-supply-contracts-for-new-16-hi-hbm4-orders/index.html) *(5/2026)*
+
+### **[DRAM·NAND]** Q2 가격 DRAM +63%·NAND +75% 예상 — AI 수요로 2027년까지 공급 부족 지속
+- TrendForce에 따르면 Q2 2026 DRAM 계약가격 63%, NAND Flash 75% 상승 예상. NAND 가격 상승폭이 현 사이클에서 처음으로 DRAM을 추월. AI 서버용 HBM·엔터프라이즈 SSD 수요가 전체 생산 용량을 잠식하면서 클라우드 사업자들이 장기 계약으로 공급을 선점. 실질적 용량 확충은 2027년 말 이전 기대 어려움.
+  - 🔍 *소비자용 DRAM·NAND 구매를 계획 중이라면 연내 추가 인상 전 Q2 내 구매가 유리. 기업 SSD 조달은 장기 계약 전환을 적극 검토할 것*
+- 출처: [Tom's Hardware](https://www.tomshardware.com/pc-components/dram/dram-and-nand-contract-prices-to-climb-again-in-q2) *(5/2026)*
