@@ -17,7 +17,36 @@ GitHub 저장소 `kimjans/daily-news` 가 작업 디렉토리에 클론되어 �
 - `git config user.email "kimjans1983@gmail.com"`
 - `git config user.name "Kim Jans"`
 
-## 3단계: 뉴스 검색 및 정리
+## 3단계: 키워드 트렌드 수집
+
+오늘 AI 업계 전반에서 가장 많이 언급된 키워드를 파악한다.
+
+### RSS 피드 수집
+다음 RSS 피드들을 WebFetch로 가져온다 (실패 시 스킵):
+- `https://techcrunch.com/category/artificial-intelligence/feed/`
+- `https://www.theverge.com/ai-artificial-intelligence/rss/index.xml`
+- `https://venturebeat.com/ai/feed/`
+- `https://feeds.arstechnica.com/arstechnica/technology-lab`
+- `https://www.wired.com/feed/tag/artificial-intelligence/latest/rss`
+
+각 피드에서 오늘 날짜(TODAY) 기준 **48시간 이내** 기사의 **제목(title)**과 **설명(description)**을 추출한다.
+
+### 키워드 추출 규칙
+수집된 모든 텍스트를 분석해 다음 기준으로 키워드를 추출하고 등장 횟수를 센다:
+
+- **회사명**: OpenAI, Anthropic, Google, Microsoft, Meta, Apple, xAI, Amazon, Nvidia, Samsung, SK Hynix, Micron 등
+- **모델/제품명**: GPT-5, Claude, Gemini, Grok, Llama, Copilot, Cursor, Midjourney 등
+- **기술 용어**: LLM, AGI, RAG, MCP, multimodal, reasoning, fine-tuning, inference, HBM, DRAM 등
+- **주요 주제어**: 각 기사 제목에서 반복 등장하는 핵심 명사
+
+불용어(the, a, an, is, of, in, to, for, and, or, with, that, this, as, at, on, by, be, was, are 등) 제외.
+
+### 결과 저장
+TOP 10 키워드와 빈도수를 변수로 보관 (6단계 index.md 작성 시 사용).
+
+---
+
+## 4단계: 뉴스 검색 및 정리
 WebSearch를 사용해 **지난 24시간 이내의 최신 AI 뉴스**를 두 카테고리로 한국어로 정리한다.
 
 ### 카테고리 1: 🌐 AI 일반 뉴스 (최대 5개)
@@ -95,7 +124,7 @@ WebSearch를 사용해 **지난 24시간 이내의 최신 AI 뉴스**를 두 카
 
 ---
 
-## 4단계: 어제 뉴스 아카이브
+## 5단계: 어제 뉴스 아카이브
 1. `index.md` 파일을 Read로 읽는다 (파일이 없으면 이 단계 스킵).
 2. 헤더 `# 📬 오늘의 AI 뉴스 브리핑 (YYYY-MM-DD)` 에서 날짜 추출 — PREV_DATE.
 3. PREV_DATE != TODAY 이면:
@@ -103,7 +132,7 @@ WebSearch를 사용해 **지난 24시간 이내의 최신 AI 뉴스**를 두 카
    - `news/` 폴더가 없으면 bash `mkdir -p news` 로 생성.
 4. PREV_DATE == TODAY 이면 (재실행) 아카이브 스킵.
 
-## 5단계: 오늘 index.md 작성
+## 6단계: 오늘 index.md 작성
 `index.md` 에 다음 형식으로 Write (덮어쓰기):
 
 ```
@@ -115,6 +144,18 @@ title: 모닝 브리핑
 # 📬 오늘의 모닝 브리핑 ([TODAY])
 
 > 매일 아침 배달되는 뉴스 다이제스트
+
+---
+
+## 📊 오늘의 키워드 트렌드
+
+| 키워드 | 언급 수 |
+|--------|--------|
+| [1위]  | N회    |
+| [2위]  | N회    |
+| ...    | ...    |
+
+> 5개 이상의 RSS 피드에서 수집한 기사 기준
 
 ---
 
@@ -135,7 +176,7 @@ title: 모닝 브리핑
 [뉴스 항목들]
 ```
 
-## 6단계: git commit & push
+## 7단계: git commit & push
 1. `git add -A`
 2. `git status` 로 변경사항 확인
 3. 변경 있으면 `git commit -m "daily news: {TODAY}"`
@@ -144,8 +185,9 @@ title: 모닝 브리핑
 
 변경 없으면 commit/push 스킵.
 
-## 7단계: 결과 보고
-- 추가된 뉴스 개수 (일반 N개, 코딩 N개)
+## 8단계: 결과 보고
+- 추가된 뉴스 개수 (일반 N개, 코딩 N개, 반도체 N개)
+- 키워드 트렌드 TOP 3 요약
 - commit SHA (있으면)
 - GitHub Pages URL: https://kimjans.github.io/daily-news/
 
@@ -156,3 +198,4 @@ title: 모닝 브리핑
 - 익명성 유지: 'FE 개발자', 'Jans' 등 신원 식별 단어를 본문에 쓰지 않는다.
 - 서론/결론 없이 작업만 수행.
 - 🔍 의미하는 바는 모든 뉴스 항목에 빠짐없이 포함한다.
+- RSS 피드 수집 실패 시 해당 소스만 스킵하고 계속 진행한다.
