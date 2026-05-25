@@ -21,28 +21,27 @@ GitHub 저장소 `kimjans/daily-news` 가 작업 디렉토리에 클론되어 �
 
 오늘 AI 업계 전반에서 가장 많이 언급된 키워드를 파악한다.
 
-### RSS 피드 수집
-다음 RSS 피드들을 WebFetch로 가져온다 (실패 시 스킵):
-- `https://techcrunch.com/category/artificial-intelligence/feed/`
-- `https://www.theverge.com/ai-artificial-intelligence/rss/index.xml`
-- `https://venturebeat.com/ai/feed/`
-- `https://feeds.arstechnica.com/arstechnica/technology-lab`
-- `https://www.wired.com/feed/tag/artificial-intelligence/latest/rss`
-
-각 피드에서 오늘 날짜(TODAY) 기준 **48시간 이내** 기사의 **제목(title)**과 **설명(description)**을 추출한다.
+### WebSearch로 수집
+다음 5개 쿼리를 WebSearch로 검색해 결과 제목·스니펫을 모두 수집한다:
+- `AI news today 2026`
+- `LLM model release today`
+- `OpenAI Anthropic Google AI announcement`
+- `AI coding tools developer news`
+- `semiconductor HBM DRAM AI chip news`
 
 ### 키워드 추출 규칙
-수집된 모든 텍스트를 분석해 다음 기준으로 키워드를 추출하고 등장 횟수를 센다:
+수집된 제목·스니펫 전체 텍스트에서 아래 기준으로 등장 횟수를 센다:
 
 - **회사명**: OpenAI, Anthropic, Google, Microsoft, Meta, Apple, xAI, Amazon, Nvidia, Samsung, SK Hynix, Micron 등
 - **모델/제품명**: GPT-5, Claude, Gemini, Grok, Llama, Copilot, Cursor, Midjourney 등
 - **기술 용어**: LLM, AGI, RAG, MCP, multimodal, reasoning, fine-tuning, inference, HBM, DRAM 등
-- **주요 주제어**: 각 기사 제목에서 반복 등장하는 핵심 명사
+- **주요 주제어**: 검색 결과 제목에서 반복 등장하는 핵심 명사
 
 불용어(the, a, an, is, of, in, to, for, and, or, with, that, this, as, at, on, by, be, was, are 등) 제외.
 
 ### 결과 저장
 TOP 10 키워드와 빈도수를 변수로 보관 (6단계 index.md 작성 시 사용).
+키워드가 없으면 `(수집 실패)`로 표시.
 
 ---
 
@@ -155,7 +154,7 @@ title: 모닝 브리핑
 | [2위]  | N회    |
 | ...    | ...    |
 
-> 5개 이상의 RSS 피드에서 수집한 기사 기준
+> 오늘 AI 뉴스 검색 결과 기준
 
 ---
 
@@ -198,4 +197,4 @@ title: 모닝 브리핑
 - 익명성 유지: 'FE 개발자', 'Jans' 등 신원 식별 단어를 본문에 쓰지 않는다.
 - 서론/결론 없이 작업만 수행.
 - 🔍 의미하는 바는 모든 뉴스 항목에 빠짐없이 포함한다.
-- RSS 피드 수집 실패 시 해당 소스만 스킵하고 계속 진행한다.
+- 키워드 수집 실패 시 `(수집 실패)` 한 줄만 표시하고 계속 진행한다.
