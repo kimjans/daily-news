@@ -165,7 +165,7 @@ age = TODAY - 추출된 날짜 (일수)
 
 ## 5단계: 어제 뉴스 아카이브
 1. `index.md` 파일을 Read로 읽는다 (파일이 없으면 이 단계 스킵).
-2. 헤더 `# 📬 오늘의 AI 뉴스 브리핑 (YYYY-MM-DD)` 에서 날짜 추출 — PREV_DATE.
+2. 헤더 `# 📬 오늘의 뉴스 브리핑 (YYYY-MM-DD)` 에서 날짜 추출 — PREV_DATE.
 3. PREV_DATE != TODAY 이면:
    - Jekyll frontmatter(`---` 블록)를 제외한 본문을 `news/{PREV_DATE}.md`에 Write.
    - `news/` 폴더가 없으면 bash `mkdir -p news` 로 생성.
@@ -177,10 +177,10 @@ age = TODAY - 추출된 날짜 (일수)
 ```
 ---
 layout: default
-title: 모닝 브리핑
+title: The Morning Brief
 ---
 
-# 📬 오늘의 모닝 브리핑 ([TODAY])
+# 📬 오늘의 뉴스 브리핑 ([TODAY])
 
 > 매일 아침 배달되는 뉴스 다이제스트
 

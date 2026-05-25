@@ -1,11 +1,11 @@
 ---
 layout: default
-title: The AI Morning
+title: The Morning Brief
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 (2026-05-25)
+# 📬 오늘의 뉴스 브리핑 (2026-05-25)
 
-> 매일 아침 배달되는 AI 뉴스 다이제스트
+> 매일 아침 배달되는 뉴스 다이제스트
 
 ---
 
