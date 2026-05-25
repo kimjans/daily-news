@@ -32,7 +32,7 @@ title: The AI Morning
 - Gemini 기반 코딩 에이전트 AlphaEvolve가 수학을 넘어 게놈학, 양자물리, 상업적 응용 분야로 확장. DNA 서열분석 오류 검출 30% 감소, 양자회로 오류율 10배 감소 달성. 기초과학 전반으로 AI 자율 연구 영역이 빠르게 확대됨.
   - 💡 *AlphaEvolve = Google DeepMind의 AI 기반 자율 연구 에이전트. 스스로 알고리즘을 진화시키며 과학 문제를 해결*
   - 🔍 *생명공학·재료과학 등 연구 분야에 종사한다면 AlphaEvolve의 적용 범위와 API 공개 여부를 DeepMind 공식 채널에서 직접 확인해볼 것*
-- 출처: [dentro.de/ai](https://dentro.de/ai/news/) *(5/2026)*
+- 출처: [dentro.de/ai](https://dentro.de/ai/news/) *(5월)*
 
 ### **[Trump 행정부]** 새 AI 행정명령 이번 주 서명 예정 — 90일 전 모델 공유 자발적 프레임워크
 - Trump 대통령이 주요 테크 CEO들을 백악관으로 소집해 새 AI 행정명령 서명 예정. 핵심 내용은 정부에 출시 90일 전 모델을 공유하는 '자발적 프레임워크' 설립. 기존 AI 안전 행정명령 폐지 이후의 미국 AI 정책 방향이 구체화됨.
@@ -52,7 +52,7 @@ title: The AI Morning
 - Cursor가 Composer 2.5를 출시. Claude Opus 4.7·GPT-5.5와 동급 벤치마크 성능($0.50/M 입력, $2.50/M 출력). 클라우드 에이전트 개발 환경, Microsoft Teams 통합, 여러 에이전트를 동시에 실행하는 Build in Parallel도 새로 추가.
   - 💡 *Composer = Cursor의 에이전트 모드. 코드베이스 전체를 탐색하고 멀티파일 변경을 자율 수행하는 핵심 기능*
   - 🔍 *에이전트 기능이 팀 협업 도구와 통합되는 방향으로 진화 중. Teams 환경에서 Cursor를 도입한 팀은 병렬 에이전트 기능을 즉시 테스트해볼 것*
-- 출처: [Lushbinary](https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/) *(5/2026)*
+- 출처: [Lushbinary](https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/) *(5/18)*
 
 ### **[Claude Opus 4.7]** SWE-bench Pro 64.3% 달성 — 코딩 에이전트 벤치마크 기준점 재설정
 - Anthropic이 Opus 4.7 출시와 함께 코딩 벤치마크를 대폭 향상. SWE-bench Verified 80.8%→87.6%, SWE-bench Pro 53.4%→64.3%, CursorBench 58%→70%로 이전 대비 큰 폭 상승. AI 코딩 에이전트 시장의 성능 기준점을 전반적으로 끌어올림.
@@ -64,7 +64,7 @@ title: The AI Morning
 - AWS의 AI 코딩 IDE Kiro가 병렬 Spec 작업 실행 기능을 추가해 멀티태스크 워크플로우 최대 4배 속도 향상. CLI 헤드리스 모드로 파이프라인 내 자동 코드 리뷰, 릴리스 노트 생성, 실패 테스트 자동 수정도 지원.
   - 💡 *Kiro = AWS가 2026년 출시한 AI 코딩 IDE. Spec 모드로 요구사항 정의부터 코드 생성까지 자동화하는 것이 특징*
   - 🔍 *CI/CD 파이프라인에 AI 코딩 에이전트를 통합하려는 팀에게 Kiro CLI 헤드리스 모드는 실질적인 대안이 될 수 있음*
-- 출처: [Cloudvisor](https://cloudvisor.co/what-is-kiro/) *(5/2026)*
+- 출처: [Cloudvisor](https://cloudvisor.co/what-is-kiro/) *(5월)*
 
 ---
 
@@ -78,10 +78,10 @@ title: The AI Morning
 ### **[SK Hynix]** 주가 신고가 +15% 급등 — HBM 전 품목 완판, Macquarie 목표주가 상향
 - SK Hynix 주가가 사상 최고 194만 9천 원을 기록하며 15% 이상 급등, 시가총액 $9,000억 돌파. DRAM·NAND·HBM 전 품목이 "완판" 상태로 주문을 모두 소화할 수 없다고 공식 발표. Macquarie도 메모리 부족 "악화"를 이유로 목표주가를 추가 상향.
   - 🔍 *HBM 용량 확보 가능성이 2027~2028년까지 불투명. AI 서버 조달 계획이 있다면 최대한 빠르게 공급 계약 협의를 시작해야 할 시점*
-- 출처: [TradingKey](https://www.tradingkey.com/analysis/stocks/more/261879241-sk-hynix-hbm-shortage-samsung-tracker-valuation-tradingkey) / [Investing.com](https://www.investing.com/news/stock-market-news/sk-hynix-stock-target-lifted-at-macquarie-on-worsening-memory-shortage-4687693) *(5/2026)*
+- 출처: [TradingKey](https://www.tradingkey.com/analysis/stocks/more/261879241-sk-hynix-hbm-shortage-samsung-tracker-valuation-tradingkey) / [Investing.com](https://www.investing.com/news/stock-market-news/sk-hynix-stock-target-lifted-at-macquarie-on-worsening-memory-shortage-4687693) *(5월)*
 
 ### **[Micron]** 소비자 메모리 시장 전면 철수 — AI 데이터센터 전용 전략으로 전환, HBM 점유율 21%로 삼성 추월
 - Micron이 소비자용 메모리·스토리지 시장에서 완전 철수하고 AI·엔터프라이즈 데이터센터 전용으로 전략 전환. HBM 시장 점유율 21%로 삼성전자(17%)를 추월해 업계 2위 진입. Samsung·SK Hynix·Micron 3사 모두 2026년 HBM 생산 용량이 매진 상태.
   - 💡 *Micron = 미국 유일의 주요 메모리 반도체 제조사. 소비자 시장 철수로 PC·스마트폰용 DRAM 공급이 추가로 타이트해질 전망*
   - 🔍 *기업용 서버 메모리뿐 아니라 일반 소비자 DRAM 가격도 추가 상승 압력이 커짐. 데이터센터·PC 부품 구매 계획을 앞당기는 것을 고려할 것*
-- 출처: [Astute Group](https://www.astutegroup.com/news/general/sk-hynix-holds-62-of-hbm-micron-overtakes-samsung-2026-battle-pivots-to-hbm4/) *(5/2026)*
+- 출처: [Astute Group](https://www.astutegroup.com/news/general/sk-hynix-holds-62-of-hbm-micron-overtakes-samsung-2026-battle-pivots-to-hbm4/) *(5월)*
