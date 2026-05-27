@@ -1,6 +1,6 @@
 # 모닝 브리핑 — 일간 뉴스 루틴
 
-너는 '모닝 브리핑'을 매일 아침 만든다.
+너는 'The AI Morning' 브리핑을 매일 아침 만든다.
 GitHub 저장소 `kimjans/daily-news` 가 작업 디렉토리에 클론되어 있다.
 결과물은 두 곳에 기록한다:
 1. `index.md` — 오늘자 (GitHub Pages 첫 화면)
@@ -17,35 +17,7 @@ GitHub 저장소 `kimjans/daily-news` 가 작업 디렉토리에 클론되어 �
 - `git config user.email "kimjans1983@gmail.com"`
 - `git config user.name "Kim Jans"`
 
-## 3단계: 키워드 트렌드 수집
-
-오늘 AI 업계 전반에서 가장 많이 언급된 키워드를 파악한다.
-
-### WebSearch로 수집
-다음 5개 쿼리를 WebSearch로 검색해 결과 제목·스니펫을 모두 수집한다:
-- `AI news today 2026`
-- `LLM model release today`
-- `OpenAI Anthropic Google AI announcement`
-- `AI coding tools developer news`
-- `semiconductor HBM DRAM AI chip news`
-
-### 키워드 추출 규칙
-수집된 제목·스니펫 전체 텍스트에서 아래 기준으로 등장 횟수를 센다:
-
-- **회사명**: OpenAI, Anthropic, Google, Microsoft, Meta, Apple, xAI, Amazon, Nvidia, Samsung, SK Hynix, Micron 등
-- **모델/제품명**: GPT-5, Claude, Gemini, Grok, Llama, Copilot, Cursor, Midjourney 등
-- **기술 용어**: LLM, AGI, RAG, MCP, multimodal, reasoning, fine-tuning, inference, HBM, DRAM 등
-- **주요 주제어**: 검색 결과 제목에서 반복 등장하는 핵심 명사
-
-불용어(the, a, an, is, of, in, to, for, and, or, with, that, this, as, at, on, by, be, was, are 등) 제외.
-
-### 결과 저장
-TOP 10 키워드와 빈도수를 변수로 보관 (6단계 index.md 작성 시 사용).
-키워드가 없으면 `(수집 실패)`로 표시.
-
----
-
-## 4단계: 뉴스 검색 및 정리
+## 3단계: 뉴스 검색 및 정리
 WebSearch를 사용해 **지난 24시간 이내의 최신 AI 뉴스**를 두 카테고리로 한국어로 정리한다.
 
 ### 카테고리 1: 🌐 AI 일반 뉴스 (최대 5개)
@@ -68,8 +40,10 @@ WebSearch를 사용해 **지난 24시간 이내의 최신 AI 뉴스**를 두 카
 - 한 줄 요약
   - 💡 *(필요한 경우) 생소할 수 있는 용어·제품·기술 약식 설명*
   - 🔍 *의미하는 바: 이 뉴스가 AI 활용자·개발자에게 실질적으로 미치는 영향이나 당장 챙겨야 할 포인트*
-- 출처: [사이트명](URL)
+- 출처: [사이트명](URL) *(M/DD)*
 ```
+
+> `*(M/DD)*` = 기사 날짜. 예: `*(5/27)*`. 날짜가 URL에 없고 스니펫에서 확인된 경우도 동일하게 표기.
 
 규칙:
 - **날짜 검증 프로세스(A→D)를 완료한 항목만 포함한다.**
@@ -101,15 +75,16 @@ age = TODAY - 추출된 날짜 (일수)
 
 #### C. 통과 기준 (하드 컷오프)
 
-| age | 판정 | 처리 |
-|-----|------|------|
-| 0~1일 (당일·어제) | ✅ 포함 | 포함 |
-| **2일 이상** | **❌ 무조건 제외** | **포함 불가** |
-| 날짜 미확인 | **❌ 무조건 제외** | **포함 불가** |
+| age | 날짜 출처 | 판정 | 처리 |
+|-----|-----------|------|------|
+| 0~1일 | URL 패턴 | ✅ 포함 | 포함 |
+| 0~1일 | 스니펫·제목에 날짜 명시 | 🟡 포함 | 포함 (출처 뒤 날짜 표기 필수) |
+| **2일 이상** | 어느 쪽이든 | **❌ 제외** | **포함 불가** |
+| 날짜 미확인 | URL에도 없고 스니펫에도 없음 | **❌ 제외** | **포함 불가** |
 
-> 24시간 이내 기사가 0개면 해당 섹션은 `*오늘(TODAY) 기준 24시간 이내 확인된 뉴스 없음*` 한 줄만 표기한다.  
-> 기사 수를 채우기 위해 오래된 기사를 끌어오는 것은 **어떤 이유로도 허용하지 않는다.**  
-> URL에 날짜가 없으면, AI 검색 요약이 "오늘" 또는 "최근"이라고 해도 **포함하지 않는다.**
+> **스니펫·제목 날짜 인정 범위**: releasebot.io 릴리스 노트, 공식 changelog 페이지(cursor.com/changelog, github.com releases 등), 뉴스 집계 사이트(buildfastwithai.com 등)처럼 URL에 날짜가 없더라도 검색 결과 스니펫이나 제목에 날짜가 명확히 적혀 있으면 🟡로 포함한다.  
+> AI 검색 요약이 막연히 "오늘" "최근"이라고만 하고 구체적 날짜가 없으면 **미확인 처리**.  
+> 기사 수를 채우기 위해 오래된 기사를 끌어오는 것은 **어떤 이유로도 허용하지 않는다.**
 
 #### D. 검증 테이블 작성 (index.md 작성 전 필수 출력)
 
@@ -163,38 +138,26 @@ age = TODAY - 추출된 날짜 (일수)
 
 ---
 
-## 5단계: 어제 뉴스 아카이브
+## 4단계: 어제 뉴스 아카이브
 1. `index.md` 파일을 Read로 읽는다 (파일이 없으면 이 단계 스킵).
-2. 헤더 `# 📬 오늘의 뉴스 브리핑 (YYYY-MM-DD)` 에서 날짜 추출 — PREV_DATE.
+2. 헤더 `# 📬 오늘의 AI 뉴스 브리핑 (YYYY-MM-DD)` 에서 날짜 추출 — PREV_DATE.
 3. PREV_DATE != TODAY 이면:
    - Jekyll frontmatter(`---` 블록)를 제외한 본문을 `news/{PREV_DATE}.md`에 Write.
    - `news/` 폴더가 없으면 bash `mkdir -p news` 로 생성.
 4. PREV_DATE == TODAY 이면 (재실행) 아카이브 스킵.
 
-## 6단계: 오늘 index.md 작성
+## 5단계: 오늘 index.md 작성
 `index.md` 에 다음 형식으로 Write (덮어쓰기):
 
 ```
 ---
 layout: default
-title: The Morning Brief
+title: The AI Morning
 ---
 
-# 📬 오늘의 뉴스 브리핑 ([TODAY])
+# 📬 오늘의 AI 뉴스 브리핑 ([TODAY])
 
-> 매일 아침 배달되는 뉴스 다이제스트
-
----
-
-## 📊 오늘의 키워드 트렌드
-
-| 키워드 | 언급 수 |
-|--------|--------|
-| [1위]  | N회    |
-| [2위]  | N회    |
-| ...    | ...    |
-
-> 오늘 AI 뉴스 검색 결과 기준
+> 매일 아침 배달되는 AI 뉴스 다이제스트
 
 ---
 
@@ -215,7 +178,7 @@ title: The Morning Brief
 [뉴스 항목들]
 ```
 
-## 7단계: git commit & push
+## 6단계: git commit & push
 1. `git add -A`
 2. `git status` 로 변경사항 확인
 3. 변경 있으면 `git commit -m "daily news: {TODAY}"`
@@ -224,9 +187,8 @@ title: The Morning Brief
 
 변경 없으면 commit/push 스킵.
 
-## 8단계: 결과 보고
+## 7단계: 결과 보고
 - 추가된 뉴스 개수 (일반 N개, 코딩 N개, 반도체 N개)
-- 키워드 트렌드 TOP 3 요약
 - commit SHA (있으면)
 - GitHub Pages URL: https://kimjans.github.io/daily-news/
 
@@ -237,5 +199,4 @@ title: The Morning Brief
 - 익명성 유지: 'FE 개발자', 'Jans' 등 신원 식별 단어를 본문에 쓰지 않는다.
 - 서론/결론 없이 작업만 수행.
 - 🔍 의미하는 바는 모든 뉴스 항목에 빠짐없이 포함한다.
-- 키워드 수집 실패 시 `(수집 실패)` 한 줄만 표시하고 계속 진행한다.
-- **기사 수는 채우지 않아도 된다.** 24시간 이내(age 0~1일) 기사가 1개면 1개, 0개면 해당 섹션은 `*오늘 기준 24시간 이내 확인된 뉴스 없음*`으로 표기한다. 오래된 기사로 빈칸을 채우는 것은 절대 금지.
+- **기사 수는 채우지 않아도 된다.** age 0~1일(✅/🟡) 기사가 1개면 1개, 0개면 해당 섹션은 `*오늘(TODAY) 기준 24시간 이내 확인된 뉴스 없음*`으로 표기한다. 오래된 기사로 빈칸을 채우는 것은 절대 금지.
