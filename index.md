@@ -3,56 +3,57 @@ layout: default
 title: The AI Morning
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 (2026-05-26)
+# 📬 오늘의 AI 뉴스 브리핑 (2026-05-27)
 
 > 매일 아침 배달되는 AI 뉴스 다이제스트
 
 ---
 
+## 📊 오늘의 키워드 트렌드
+
+| 키워드 | 언급 수 |
+|--------|--------|
+| Anthropic | 25회 |
+| Claude | 20회 |
+| HBM | 15회 |
+| Gemini | 14회 |
+| Google | 13회 |
+| OpenAI | 12회 |
+| DRAM | 10회 |
+| Cursor | 8회 |
+| AI 에이전트 | 8회 |
+| Copilot | 6회 |
+
+> 오늘 AI 뉴스 검색 결과 기준
+
+---
+
 ## 🌐 AI 일반
 
-### **[교황청]** Pope Leo XIV, AI 시대 인간 존엄 주제 첫 회칙 'Magnifica Humanitas' 발표
-- 교황 Leo XIV가 Anthropic 공동창업자 Christopher Olah와 함께 AI 윤리 주제 첫 회칙 *Magnifica Humanitas*를 발표. 내용은 AI 자체보다 AI 렌즈로 본 노동 착취·경제 불평등 등 전통적 사회 정의 문제를 재조명한 것으로, 135년 전 노동 회칙 *Rerum Novarum*을 의도적으로 오마주한 구성.
-  - 💡 *회칙(Encyclical) = 교황이 전 세계 신자에게 보내는 공식 교서. AI 윤리에 대한 가톨릭 최초의 공식 입장 표명*
-  - 🔍 *AI 윤리가 기술 업계를 넘어 종교·글로벌 정치 어젠다로 확산 중 — AI 서비스 거버넌스 문서에 인간 중심 원칙을 명문화하는 압력이 거세질 것*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/) *(5/25)*
+### **[DuckDuckGo]** 구글 AI 검색 개편 반발로 DuckDuckGo 설치 30% 급증
+- Google I/O 2026에서 발표된 AI Overviews 대폭 강화 이후 DuckDuckGo 앱 설치가 주간 기준 30% 증가. 5월 19~25일 평균 주간 성장률 22.7%, 5월 24일 피크는 27.7%. DuckDuckGo는 자체 AI 서비스 Duck.ai를 통해 Claude 4.5 Haiku·Meta Llama 4 Scout·GPT-5 mini 등에 접근할 수 있는 'AI 없는 검색' 옵션도 함께 제공.
+  - 💡 *Duck.ai = DuckDuckGo가 운영하는 AI 채팅 서비스. 다수 LLM 모델을 익명으로 사용할 수 있으며 로그를 저장하지 않는 것이 특징*
+  - 🔍 *AI 검색이 SEO 트래픽 구조를 바꾸고 있음 — 검색 노출 의존 서비스라면 AI Overviews 최적화(구조화 데이터, 출처 신뢰도)를 지금부터 점검할 것*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/)
 
-### **[Anthropic]** Q2 2026 매출 $10.9B 전망 — 창사 이래 첫 분기 흑자 달성 예고
-- Anthropic이 투자자에게 공유한 재무 전망에 따르면 2026년 2분기 매출이 $10.9B(약 15조 원)으로 1분기($4.8B) 대비 130% 급성장. 연 매출 $44B 페이스로 창사 이래 첫 분기 흑자도 예상됨.
-  - 🔍 *Claude API 이용 서비스라면 요금 정책 변동 가능성을 주시할 것 — 흑자 전환 이후 서비스 확장 속도가 빨라질 수 있어 새 기능 출시 타이밍도 앞당겨질 가능성*
-- 출처: [BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-may-25-2026) *(5/25)*
-
-### **[Anthropic]** $900B+ 기업가치로 $30B 투자 이번 주 마감 — OpenAI 제치고 세계 최고가 AI 스타트업
-- Sequoia·Dragoneer·Altimeter·Greenoaks 공동 주도로 이번 주 내 클로징 예상. 2026년 2월 Series G($380B 기업가치) 이후 6개월 만에 기업가치 2.5배 이상 상승. 2026년 한 해만 두 번의 $30B 라운드.
-  - 🔍 *Anthropic의 대규모 투자는 인프라 확장으로 이어지며 모델 성능·API 처리 속도 개선으로 연결될 가능성이 높음 — 장기 계약을 앞두고 있다면 연내 공개될 새 요금 플랜을 확인할 것*
-- 출처: [BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-may-25-2026) *(5/25)*
-
-### **[OpenAI]** SEC에 비밀 IPO 서류(S-1) 제출 — 9월 상장·기업가치 최대 $1T 목표
-- Goldman Sachs·Morgan Stanley 주관으로 비밀 S-1 제출, 2026년 9월 상장 목표. 기업가치 $852B~$1T 구간이 유력. 단, Q1 2026 기준 $1 수익 낼 때마다 $1.22 손실 중인 수익 구조가 핵심 변수.
-  - 💡 *비밀 S-1(Confidential Filing) = 기업이 공개 전 SEC에 초안을 비공개 제출해 규제 심사를 거치는 미국 제도. 로드쇼 15일 전 공개 의무화*
-  - 🔍 *IPO 전후로 OpenAI 서비스 가격·API 약관이 재편될 수 있음 — 공개 S-1 발표 시점을 전후해 장기 계약·대량 구매 플랜을 재검토할 것*
-- 출처: [BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-may-25-2026) *(5/25)*
-
-### **[Anthropic]** SpaceX IPO 서류로 공개된 $45B GPU 컴퓨팅 계약 — 월 $12.5억 지급
-- SpaceX S-1 공시로 Anthropic이 2029년 5월까지 SpaceX에 GPU 컴퓨팅 비용으로 월 $1.25B를 지급하는 계약이 처음 확인됨. 총액 $45B 규모로, AI 컴퓨팅 비용의 규모를 적나라하게 보여주는 사례.
-  - 🔍 *AI 서비스의 실제 인프라 비용 규모를 단적으로 보여주는 수치 — 자체 GPU 클러스터 구축보다 클라우드 계약이 당분간 주류를 유지할 근거로 작용*
-- 출처: [BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-may-25-2026) *(5/25)*
+### **[Anthropic]** Project Glasswing 첫 성과: Claude Mythos, 오픈소스 1,000개 프로젝트서 취약점 10,000개 이상 발견
+- Anthropic이 Project Glasswing 초기 성과를 공개. Claude Mythos Preview가 오픈소스 1,000여 개 프로젝트를 스캔해 잠재 취약점 23,019개를 식별. 이 중 독립 보안 기업과 Anthropic 내부 검토를 거친 결과, 90.6%가 실제 취약점(true positive), 62.4%가 고위험(high/critical) 등급으로 확인. AWS·Apple·Broadcom·Cisco·Google·JPMorganChase·Microsoft·NVIDIA 등 17개 기관이 파트너로 참여. 아울러 기업 고객을 대상으로 Claude Security 퍼블릭 베타도 공개.
+  - 💡 *Project Glasswing = Anthropic이 2026년 4월 발족한 오픈소스 소프트웨어 취약점 탐지·수정 프로젝트. Claude Mythos 모델을 보안 전용으로 활용*
+  - 🔍 *오픈소스 라이브러리를 프로덕션에 사용 중이라면 Glasswing 스캔 대상 목록을 확인하고, Claude Security Enterprise 베타 조기 접근을 검토할 것*
+- 출처: [Help Net Security](https://www.helpnetsecurity.com/2026/05/26/anthropic-project-glasswing-update/)
 
 ---
 
 ## 💻 코딩 & 도구
 
-### **[Microsoft]** 비용 폭증으로 Claude Code 라이선스 취소 → GitHub Copilot CLI 강제 전환 지시
-- Microsoft가 6월 30일까지 자사 임직원의 Claude Code 라이선스를 취소하고 GitHub Copilot CLI로의 전환을 지시. Windows·Microsoft 365·Teams 등 담당 수천 명의 개발자가 대상. 토큰 기반 과금으로 연간 AI 예산이 수개월 만에 소진된 것이 주요 원인. 내부 개발자들 사이에서는 Claude Code가 Copilot보다 더 선호된다는 점에서 아이러니한 결정.
-  - 🔍 *Claude Code를 기업 단위로 도입한 팀은 토큰 소비량과 월별 지출 상한을 사전 설정하지 않으면 동일한 예산 충격 가능 — Max plan 등 사용량 상한 옵션을 먼저 검토할 것*
-- 출처: [Social News XYZ](https://www.socialnews.xyz/2026/05/25/microsoft-cuts-claude-code-access-as-ai-coding-costs-surge/) *(5/25)*
+*오늘(2026-05-27) 기준 24시간 이내 확인된 뉴스 없음*
 
 ---
 
 ## 💾 메모리 반도체
 
-### **[HBM]** GPU에서 HBM 분리 후 광학링크로 연결하는 차세대 패키징 아키텍처 업계 논의
-- 기존에는 HBM을 GPU 바로 옆에 붙여 패키징하지만, 업계가 HBM을 별도 공간에 두고 광학링크(Optical Link)로 연결하는 방식을 검토 중. 전송 거리가 늘어나는 대신 동일 보드에 수배 많은 HBM 탑재가 가능해 AI 메모리 병목을 타개할 수 있다는 기대감. 핵심 과제는 기판 내 광학 소자의 소형화.
-  - 💡 *광학링크(Optical Link) = 전기 대신 빛(광자)으로 데이터를 전송하는 기술. 전력 소비↓, 대역폭↑ 특성으로 AI 칩 간 연결에 주목받는 방식*
-  - 🔍 *HBM 공급 병목의 구조적 해법으로 주목 — 실제 양산은 2027년 이후 전망이지만, HBM 수급·가격 전망에 반영될 수 있어 반도체 투자 시 참고할 것*
-- 출처: [TrendForce](https://www.trendforce.com/news/2026/05/25/news-industry-reportedly-eyes-separating-hbm-from-gpus-to-expand-memory-capacity-optical-links-may-be-key)
+### **[Samsung]** 삼성 평택 P4 HBM 생산 비중 확대 — 2027년 일반 DRAM 공급 부족 심화 우려
+- 삼성전자가 평택 4공장(P4) 클린룸의 상당 용량을 2027년 차세대 HBM 생산으로 전환하는 방안을 검토 중. HBM 용량 확대로 일반 DRAM(DDR5·LPDDR5 등) 생산이 줄어들 경우, 이미 AI 수요로 타이트해진 메모리 시장이 2027년에 더욱 경색될 수 있다는 우려가 제기됨. 현재 글로벌 HBM 시장은 2026년 $54.6B 규모로 전년 대비 58% 성장이 예상되며, HBM이 전체 DRAM 웨이퍼의 23%를 차지.
+  - 💡 *P4(평택 4공장) = 삼성전자 경기도 평택 반도체 단지의 4번째 팹. HBM·DRAM·NAND 등을 혼합 생산하는 초대형 시설*
+  - 🔍 *HBM 쏠림으로 일반 DRAM 가격의 추가 상승 가능 — 서버·PC 메모리 조달 계획이 있다면 2027년 물량을 연내 선계약하는 것이 비용 측면에서 유리할 수 있음*
+- 출처: [Digitimes](https://www.digitimes.com/news/a20260526VL205/samsung-hbm-dram-2027-capacity.html)
