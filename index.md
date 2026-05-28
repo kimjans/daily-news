@@ -3,57 +3,51 @@ layout: default
 title: The AI Morning
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 (2026-05-27)
+# 📬 오늘의 AI 뉴스 브리핑 (2026-05-28)
 
 > 매일 아침 배달되는 AI 뉴스 다이제스트
 
 ---
 
-## 📊 오늘의 키워드 트렌드
-
-| 키워드 | 언급 수 |
-|--------|--------|
-| Anthropic | 25회 |
-| Claude | 20회 |
-| HBM | 15회 |
-| Gemini | 14회 |
-| Google | 13회 |
-| OpenAI | 12회 |
-| DRAM | 10회 |
-| Cursor | 8회 |
-| AI 에이전트 | 8회 |
-| Copilot | 6회 |
-
-> 오늘 AI 뉴스 검색 결과 기준
-
----
-
 ## 🌐 AI 일반
 
-### **[DuckDuckGo]** 구글 AI 검색 개편 반발로 DuckDuckGo 설치 30% 급증
-- Google I/O 2026에서 발표된 AI Overviews 대폭 강화 이후 DuckDuckGo 앱 설치가 주간 기준 30% 증가. 5월 19~25일 평균 주간 성장률 22.7%, 5월 24일 피크는 27.7%. DuckDuckGo는 자체 AI 서비스 Duck.ai를 통해 Claude 4.5 Haiku·Meta Llama 4 Scout·GPT-5 mini 등에 접근할 수 있는 'AI 없는 검색' 옵션도 함께 제공.
-  - 💡 *Duck.ai = DuckDuckGo가 운영하는 AI 채팅 서비스. 다수 LLM 모델을 익명으로 사용할 수 있으며 로그를 저장하지 않는 것이 특징*
-  - 🔍 *AI 검색이 SEO 트래픽 구조를 바꾸고 있음 — 검색 노출 의존 서비스라면 AI Overviews 최적화(구조화 데이터, 출처 신뢰도)를 지금부터 점검할 것*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/)
+### **[Anthropic]** Claude에 28개 보안·컴플라이언스 플랫폼 통합 출시
+- Claude Enterprise가 CrowdStrike, Palo Alto Networks, Microsoft Purview, Okta, Wiz 등 28개 보안·컴플라이언스 플랫폼과 연동되는 Compliance API를 공개. SIEM, DLP, SASE, ID 관리, e-디스커버리, AI 옵저버빌리티 등 카테고리를 망라하며, Claude 사용 내역(대화·파일·프로젝트·활동 로그)을 기업의 기존 보안 대시보드로 실시간 전송 가능.
+  - 💡 *SIEM = 보안 정보 및 이벤트 관리 시스템. 이상 징후 탐지·감사 로그 통합에 주로 사용되며, 기업 IT 보안의 중앙 허브 역할*
+  - 🔍 *Claude를 기업 환경에 도입 중이라면 이미 쓰고 있는 보안 플랫폼과 연동 가능한지 파트너 목록을 즉시 확인할 것 — 별도 구성 없이 기존 워크플로에 Claude 감사 로그를 합칠 수 있음*
+- 출처: [TechTimes](https://www.techtimes.com/articles/317272/20260527/claude-enterprise-security-integrations-28-vendors-now-route-ai-activity-existing-siem-dlp-tools.htm) *(5/27)*
 
-### **[Anthropic]** Project Glasswing 첫 성과: Claude Mythos, 오픈소스 1,000개 프로젝트서 취약점 10,000개 이상 발견
-- Anthropic이 Project Glasswing 초기 성과를 공개. Claude Mythos Preview가 오픈소스 1,000여 개 프로젝트를 스캔해 잠재 취약점 23,019개를 식별. 이 중 독립 보안 기업과 Anthropic 내부 검토를 거친 결과, 90.6%가 실제 취약점(true positive), 62.4%가 고위험(high/critical) 등급으로 확인. AWS·Apple·Broadcom·Cisco·Google·JPMorganChase·Microsoft·NVIDIA 등 17개 기관이 파트너로 참여. 아울러 기업 고객을 대상으로 Claude Security 퍼블릭 베타도 공개.
-  - 💡 *Project Glasswing = Anthropic이 2026년 4월 발족한 오픈소스 소프트웨어 취약점 탐지·수정 프로젝트. Claude Mythos 모델을 보안 전용으로 활용*
-  - 🔍 *오픈소스 라이브러리를 프로덕션에 사용 중이라면 Glasswing 스캔 대상 목록을 확인하고, Claude Security Enterprise 베타 조기 접근을 검토할 것*
-- 출처: [Help Net Security](https://www.helpnetsecurity.com/2026/05/26/anthropic-project-glasswing-update/)
+### **[Meta]** Meta One AI 구독 플랜 글로벌 출시, $7.99·$19.99 티어 공개
+- Meta가 Instagram·Facebook·WhatsApp 유료 구독을 전 세계에 롤아웃하면서, AI 전용 구독 브랜드 "Meta One"을 시범 운영 시작. Meta One Plus($7.99/월)·Premium($19.99/월) 두 티어로 구성되며, Premium은 딥 리즈닝·고화질 이미지·동영상 생성 등 고연산 쿼리 용량을 추가 제공. AI 구독은 싱가포르·과테말라·볼리비아에서 먼저 테스트 후 확대 예정.
+  - 💡 *Meta One = Meta의 AI 서비스 통합 구독 브랜드. ChatGPT Plus·Claude Pro 등 독립 AI 구독과 직접 경쟁하는 포지셔닝*
+  - 🔍 *소셜 플랫폼 내 AI 구독이 본격화되면서 일반 사용자층의 AI 접근 채널이 다변화 — 기존 AI 구독 서비스는 차별화 포인트(전문성·개인정보 정책 등)를 재점검할 시점*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/) *(5/27)*
+
+### **[업계동향]** "Tech CEO들은 AI를 실제보다 과대평가한다" — AI Psychosis 논쟁
+- Box 창업자 Aaron Levie가 "CEO들은 현장 실행과 충분히 거리가 있어 AI의 실제 한계를 과소평가하는 'AI 과대망상(psychosis)'에 빠지기 쉽다"고 지적. TechCrunch가 경영진과 현장 개발자 간 AI 인식 격차를 분석 — CEO의 AI 도입 결정이 구현 복잡성을 무시한 채 이루어지는 경향을 조명.
+  - 🔍 *현장 엔지니어링 팀이 AI 도입 의사결정에서 소외되어 있다면, 파일럿 범위·성공 지표를 경영진과 재협의해 현실적 기대치를 맞추는 것이 중요*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/) *(5/27)*
 
 ---
 
 ## 💻 코딩 & 도구
 
-*오늘(2026-05-27) 기준 24시간 이내 확인된 뉴스 없음*
+### **[Cognition]** Devin 개발사 Cognition, $1B 투자 유치·기업가치 $25B 달성
+- AI 코딩 에이전트 Devin을 만든 Cognition이 10억 달러 시리즈 C를 완료, 기업가치 250억 달러(Pre-money) 기록. Mercedes-Benz·NASA·Goldman Sachs·Santander 등이 고객이며, ARR(연환산 매출) $4억 9,200만 달성. Devin의 기업 사용량은 최근 6개월간 월 50% 성장세 지속. Anthropic Claude Code·OpenAI Codex·Google Jules 등 빅테크 코딩 에이전트가 치열하게 경쟁하는 가운데서도 독립 AI 코딩 스타트업으로서 입지를 공고히 함.
+  - 💡 *Devin = Cognition이 개발한 자율 AI 소프트웨어 엔지니어. 이슈 수신부터 코드 작성·테스트·PR 생성까지 단독 수행 가능한 풀스택 코딩 에이전트*
+  - 🔍 *AI 코딩 에이전트 시장이 빅테크 번들과 독립 스타트업으로 양분되는 추세 — 에이전트 선택 시 도메인 특화도·보안 정책·기존 툴체인 통합성을 함께 비교할 것*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/) *(5/27)*
 
 ---
 
 ## 💾 메모리 반도체
 
-### **[Samsung]** 삼성 평택 P4 HBM 생산 비중 확대 — 2027년 일반 DRAM 공급 부족 심화 우려
-- 삼성전자가 평택 4공장(P4) 클린룸의 상당 용량을 2027년 차세대 HBM 생산으로 전환하는 방안을 검토 중. HBM 용량 확대로 일반 DRAM(DDR5·LPDDR5 등) 생산이 줄어들 경우, 이미 AI 수요로 타이트해진 메모리 시장이 2027년에 더욱 경색될 수 있다는 우려가 제기됨. 현재 글로벌 HBM 시장은 2026년 $54.6B 규모로 전년 대비 58% 성장이 예상되며, HBM이 전체 DRAM 웨이퍼의 23%를 차지.
-  - 💡 *P4(평택 4공장) = 삼성전자 경기도 평택 반도체 단지의 4번째 팹. HBM·DRAM·NAND 등을 혼합 생산하는 초대형 시설*
-  - 🔍 *HBM 쏠림으로 일반 DRAM 가격의 추가 상승 가능 — 서버·PC 메모리 조달 계획이 있다면 2027년 물량을 연내 선계약하는 것이 비용 측면에서 유리할 수 있음*
-- 출처: [Digitimes](https://www.digitimes.com/news/a20260526VL205/samsung-hbm-dram-2027-capacity.html)
+### **[SK하이닉스·Micron]** SK하이닉스·Micron 시총 동반 1조 달러 돌파 — 메모리 빅3 합산 $3조 달러
+- SK하이닉스 주가가 5월 27일 최대 11% 급등하며 시총 1조 달러를 돌파, 삼성전자(5월 초)·Micron에 이어 메모리 빅3 모두 조 단위 클럽 진입. SK하이닉스 주가는 2026년 연초 대비 250% 상승. 2026년 전체 HBM 생산량은 이미 완판 상태이며, SK하이닉스가 NVIDIA Rubin 플랫폼의 HBM4를 약 70% 공급할 것으로 추산.
+  - 🔍 *메모리 빅3 합산 시총 $3조 달러는 AI 인프라 투자가 반도체 밸류에이션을 구조적으로 재편했음을 보여줌 — HBM 완판 기조가 지속되므로 서버 메모리 조달 계획을 조기에 확정하는 것이 비용 절감에 유리*
+- 출처: [Bloomberg](https://www.bloomberg.com/news/articles/2026-05-27/sk-hynix-joins-1-trillion-club-on-ai-memory-chip-dominance) *(5/27)*
+
+### **[Samsung]** 삼성 반도체 노조, 임금협약 의결 통과 — 파업 위기 해소
+- 삼성전자 최대 노조 조합원 74%가 2026년 임금협약 찬성 투표로 반도체 공장 파업 위기를 해소. 합의 내용: 기본급 6.2% 인상 + 반도체 부문 이익연동 주식 보너스 10.5%. Bloomberg 추산 기준 총 보너스 풀 약 40조 원(약 266억 달러)규모. 파업 발생 시 HBM·DRAM 글로벌 공급망 차질 우려가 일단 제거됨.
+  - 🔍 *단기 메모리 공급 불안 요인 해소 — 다만 고임금 부담이 삼성 원가 구조에 영향을 줄 수 있어 하반기 DRAM·HBM 가격 협상에서 삼성의 강경 기조를 주시할 것*
+- 출처: [Bloomberg](https://www.bloomberg.com/news/articles/2026-05-27/samsung-union-votes-in-favor-of-deal-averting-chip-plant-strike) *(5/27)*
