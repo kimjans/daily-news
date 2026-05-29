@@ -3,7 +3,7 @@ layout: default
 title: The AI Morning
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 (2026-05-28)
+# 📬 오늘의 AI 뉴스 브리핑 (2026-05-29)
 
 > 매일 아침 배달되는 AI 뉴스 다이제스트
 
@@ -11,43 +11,52 @@ title: The AI Morning
 
 ## 🌐 AI 일반
 
-### **[Anthropic]** Claude에 28개 보안·컴플라이언스 플랫폼 통합 출시
-- Claude Enterprise가 CrowdStrike, Palo Alto Networks, Microsoft Purview, Okta, Wiz 등 28개 보안·컴플라이언스 플랫폼과 연동되는 Compliance API를 공개. SIEM, DLP, SASE, ID 관리, e-디스커버리, AI 옵저버빌리티 등 카테고리를 망라하며, Claude 사용 내역(대화·파일·프로젝트·활동 로그)을 기업의 기존 보안 대시보드로 실시간 전송 가능.
-  - 💡 *SIEM = 보안 정보 및 이벤트 관리 시스템. 이상 징후 탐지·감사 로그 통합에 주로 사용되며, 기업 IT 보안의 중앙 허브 역할*
-  - 🔍 *Claude를 기업 환경에 도입 중이라면 이미 쓰고 있는 보안 플랫폼과 연동 가능한지 파트너 목록을 즉시 확인할 것 — 별도 구성 없이 기존 워크플로에 Claude 감사 로그를 합칠 수 있음*
-- 출처: [TechTimes](https://www.techtimes.com/articles/317272/20260527/claude-enterprise-security-integrations-28-vendors-now-route-ai-activity-existing-siem-dlp-tools.htm) *(5/27)*
+### **[Apple]** WWDC 2026 앞두고 신규 Siri 앱 유출 — ChatGPT·Gemini·Claude와 정면 승부
+- Bloomberg가 WWDC 2026 직전 새로운 Siri 앱 렌더링을 유출 공개. 프라이버시 중심 AI 챗봇으로 재설계되며, 대화 자동삭제·웹검색·이미지 생성 기능 탑재. iOS 27의 Dynamic Island를 통해 응답하고 문맥 기반 대화 지속이 가능해질 전망. 초기에는 베타 형태로 제공될 예정.
+  - 🔍 *WWDC가 6월 8~12일로 예정된 만큼, Apple 생태계 개발자라면 새 Siri API와 서드파티 연동 가능성을 미리 검토해 두는 것이 유리*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/) *(5/28)*
 
-### **[Meta]** Meta One AI 구독 플랜 글로벌 출시, $7.99·$19.99 티어 공개
-- Meta가 Instagram·Facebook·WhatsApp 유료 구독을 전 세계에 롤아웃하면서, AI 전용 구독 브랜드 "Meta One"을 시범 운영 시작. Meta One Plus($7.99/월)·Premium($19.99/월) 두 티어로 구성되며, Premium은 딥 리즈닝·고화질 이미지·동영상 생성 등 고연산 쿼리 용량을 추가 제공. AI 구독은 싱가포르·과테말라·볼리비아에서 먼저 테스트 후 확대 예정.
-  - 💡 *Meta One = Meta의 AI 서비스 통합 구독 브랜드. ChatGPT Plus·Claude Pro 등 독립 AI 구독과 직접 경쟁하는 포지셔닝*
-  - 🔍 *소셜 플랫폼 내 AI 구독이 본격화되면서 일반 사용자층의 AI 접근 채널이 다변화 — 기존 AI 구독 서비스는 차별화 포인트(전문성·개인정보 정책 등)를 재점검할 시점*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/) *(5/27)*
+### **[Anthropic]** SpaceX 컴퓨팅 임대 계약 기간 놓고 Musk 발언 vs SEC 공시 상충
+- Elon Musk가 SpaceX-Anthropic 간 컴퓨팅 임대 계약이 6개월 단기 임대이며 90일 사전 통보로 해지 가능하다고 공개 언급. 그러나 SpaceX의 SEC S-1 공시에는 2029년 5월까지 계약이 기재되어 있어 내용이 엇갈림. Anthropic는 월 $12.5억 규모로 Colossus 클러스터 220,000 NVIDIA GPU를 사용하며 프런티어 모델 학습에 활용 중.
+  - 🔍 *Anthropic의 컴퓨팅 공급 안정성이 불투명해지면 Claude API 가용성·가격에 중기적 영향이 있을 수 있어, 대형 의존 프로젝트는 멀티클라우드 백업 플랜을 점검할 것*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/) *(5/28)*
 
-### **[업계동향]** "Tech CEO들은 AI를 실제보다 과대평가한다" — AI Psychosis 논쟁
-- Box 창업자 Aaron Levie가 "CEO들은 현장 실행과 충분히 거리가 있어 AI의 실제 한계를 과소평가하는 'AI 과대망상(psychosis)'에 빠지기 쉽다"고 지적. TechCrunch가 경영진과 현장 개발자 간 AI 인식 격차를 분석 — CEO의 AI 도입 결정이 구현 복잡성을 무시한 채 이루어지는 경향을 조명.
-  - 🔍 *현장 엔지니어링 팀이 AI 도입 의사결정에서 소외되어 있다면, 파일럿 범위·성공 지표를 경영진과 재협의해 현실적 기대치를 맞추는 것이 중요*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/) *(5/27)*
+### **[Sesame]** Oculus 공동창업자의 대화형 AI 스타트업, iOS 앱 공개 프리뷰 출시
+- VR 헤드셋 Oculus의 공동창업자가 설립한 대화형 AI 스타트업 Sesame가 iOS 공개 프리뷰를 출시. 기존 AI 챗봇과 달리 AI가 응답을 생성하는 동안에도 대화 흐름이 끊기지 않도록 설계된 점이 특징.
+  - 💡 *Sesame = Oculus 공동창업자 등이 설립한 AI 대화 스타트업. 응답 지연 없이 자연스러운 실시간 대화 경험을 목표로 함*
+  - 🔍 *AI 대화 인터페이스의 지연(latency) 문제를 UX 레벨에서 해결하려는 시도 — 실시간 챗봇·음성 어시스턴트를 개발 중인 팀이라면 구조적 접근법을 참고할 만함*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/) *(5/28)*
+
+### **[업계동향]** AI 컴퓨팅 자원이 '선물 거래' 자산으로 — GPU 임대 파생상품 시장 개막
+- 중국 상하이선물거래소가 AI 토큰 파생상품 시장을 설계 중이며, CME Group·ICE(인터컨티넨털거래소)도 GPU 임대 선물 계약 출시를 검토 중. AI 컴퓨팅 자원이 금·원유처럼 거래 가능한 표준화 자산으로 자리 잡는 흐름이 시작됨.
+  - 💡 *AI 토큰 선물 = GPU 사용 시간을 기초자산으로 하는 파생금융상품. 기업이 미래 컴퓨팅 수요를 헤지(위험 회피)하기 위한 목적으로 설계*
+  - 🔍 *AI 인프라 비용 변동성이 커지는 만큼, 대규모 GPU 사용 계획이 있는 팀은 선물 시장을 통한 비용 고정 전략을 중기 로드맵에 포함할 가치가 있음*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/) *(5/28)*
+
+### **[업계동향]** 'RSI'가 AGI 다음 키워드로 급부상 — AI 자기 개선 논쟁
+- AI 업계에서 RSI(Recursive Self-Improvement, 재귀적 자기개선)가 AGI를 대체하는 새 화두로 떠오름. AI가 스스로 업그레이드 사이클을 관리하게 되면 컴퓨팅만이 유일한 제약 요소가 된다는 논리. 업계 내 정의·기준·위험성 논의가 확대되는 추세.
+  - 💡 *RSI(Recursive Self-Improvement) = AI 시스템이 스스로를 반복적으로 개선해 성능을 지수적으로 향상시키는 개념. AI 안전 연구자들이 주목하는 핵심 위험 시나리오 중 하나*
+  - 🔍 *AI 안전·거버넌스 정책에 RSI 기준이 포함될 가능성이 높아짐 — 모델 배포 규정을 추적하는 팀이라면 이 개념의 정책 문서 반영 여부를 주시할 것*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/28/rsi-is-the-new-agi-and-its-just-as-hard-to-pin-down/) *(5/28)*
 
 ---
 
 ## 💻 코딩 & 도구
 
-### **[Cognition]** Devin 개발사 Cognition, $1B 투자 유치·기업가치 $25B 달성
-- AI 코딩 에이전트 Devin을 만든 Cognition이 10억 달러 시리즈 C를 완료, 기업가치 250억 달러(Pre-money) 기록. Mercedes-Benz·NASA·Goldman Sachs·Santander 등이 고객이며, ARR(연환산 매출) $4억 9,200만 달성. Devin의 기업 사용량은 최근 6개월간 월 50% 성장세 지속. Anthropic Claude Code·OpenAI Codex·Google Jules 등 빅테크 코딩 에이전트가 치열하게 경쟁하는 가운데서도 독립 AI 코딩 스타트업으로서 입지를 공고히 함.
-  - 💡 *Devin = Cognition이 개발한 자율 AI 소프트웨어 엔지니어. 이슈 수신부터 코드 작성·테스트·PR 생성까지 단독 수행 가능한 풀스택 코딩 에이전트*
-  - 🔍 *AI 코딩 에이전트 시장이 빅테크 번들과 독립 스타트업으로 양분되는 추세 — 에이전트 선택 시 도메인 특화도·보안 정책·기존 툴체인 통합성을 함께 비교할 것*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/) *(5/27)*
+### **[Replit]** Visa, AI 코딩 플랫폼 Replit에 투자 — 에이전트 결제 인프라 구축
+- Visa가 Replit에 미공개 금액을 투자하고 파트너십 체결. AI 에이전트가 사용자 대신 결제를 처리할 수 있도록 Visa Intelligent Commerce 및 Trusted Agent Protocol 연동을 탐색. Visa 직원 1,000명 이상이 이미 Replit을 프로토타이핑에 활용 중이며, $200,000 이하 엔터프라이즈 계약은 영업 담당자 없이 셀프서브로 자동 체결 가능.
+  - 💡 *Trusted Agent Protocol = AI 에이전트가 결제 시 자신의 의도·고객 정보를 안전하게 증명하는 Visa의 신원 확인 프로토콜*
+  - 🔍 *AI 에이전트가 결제를 자율 실행하는 '에이전틱 커머스' 인프라가 본격화 — Replit으로 프로덕트를 개발 중이라면 Visa 결제 연동 로드맵을 앞당겨 검토할 시점*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/28/visa-invests-in-replit-to-power-agentic-payments-for-developers/) *(5/28)*
+
+### **[General Compute]** AI 추론 전용 네오클라우드, $1,500만 시드 라운드 완료
+- GPU 컴퓨팅 파워를 임대하는 인퍼런스 네오클라우드 General Compute가 FUSE VC 주도로 $1,500만 시드 라운드를 완료, 기업가치 $6,000만. Cerebras 등 AI 전용 클라우드와 경쟁하는 신흥 인프라 플레이어로 주목받고 있음.
+  - 💡 *인퍼런스 네오클라우드 = AWS·Azure 같은 범용 클라우드가 아닌, AI 추론(Inference) 전용 GPU 임대 서비스를 제공하는 특화형 스타트업 클라우드*
+  - 🔍 *AI 추론 비용 절감을 원하는 팀이라면 빅클라우드 외에 특화형 인퍼런스 공급자 옵션을 비교 검토할 가치가 있음*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/28/has-the-hunt-for-ai-compute-uncovered-the-next-cerebras/) *(5/28)*
 
 ---
 
 ## 💾 메모리 반도체
 
-### **[SK하이닉스·Micron]** SK하이닉스·Micron 시총 동반 1조 달러 돌파 — 메모리 빅3 합산 $3조 달러
-- SK하이닉스 주가가 5월 27일 최대 11% 급등하며 시총 1조 달러를 돌파, 삼성전자(5월 초)·Micron에 이어 메모리 빅3 모두 조 단위 클럽 진입. SK하이닉스 주가는 2026년 연초 대비 250% 상승. 2026년 전체 HBM 생산량은 이미 완판 상태이며, SK하이닉스가 NVIDIA Rubin 플랫폼의 HBM4를 약 70% 공급할 것으로 추산.
-  - 🔍 *메모리 빅3 합산 시총 $3조 달러는 AI 인프라 투자가 반도체 밸류에이션을 구조적으로 재편했음을 보여줌 — HBM 완판 기조가 지속되므로 서버 메모리 조달 계획을 조기에 확정하는 것이 비용 절감에 유리*
-- 출처: [Bloomberg](https://www.bloomberg.com/news/articles/2026-05-27/sk-hynix-joins-1-trillion-club-on-ai-memory-chip-dominance) *(5/27)*
-
-### **[Samsung]** 삼성 반도체 노조, 임금협약 의결 통과 — 파업 위기 해소
-- 삼성전자 최대 노조 조합원 74%가 2026년 임금협약 찬성 투표로 반도체 공장 파업 위기를 해소. 합의 내용: 기본급 6.2% 인상 + 반도체 부문 이익연동 주식 보너스 10.5%. Bloomberg 추산 기준 총 보너스 풀 약 40조 원(약 266억 달러)규모. 파업 발생 시 HBM·DRAM 글로벌 공급망 차질 우려가 일단 제거됨.
-  - 🔍 *단기 메모리 공급 불안 요인 해소 — 다만 고임금 부담이 삼성 원가 구조에 영향을 줄 수 있어 하반기 DRAM·HBM 가격 협상에서 삼성의 강경 기조를 주시할 것*
-- 출처: [Bloomberg](https://www.bloomberg.com/news/articles/2026-05-27/samsung-union-votes-in-favor-of-deal-averting-chip-plant-strike) *(5/27)*
+*오늘(2026-05-29) 기준 24시간 이내 확인된 뉴스 없음*
