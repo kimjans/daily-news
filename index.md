@@ -3,7 +3,7 @@ layout: default
 title: The AI Morning
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 (2026-05-30)
+# 📬 오늘의 AI 뉴스 브리핑 (2026-05-31)
 
 > 매일 아침 배달되는 AI 뉴스 다이제스트
 
@@ -11,37 +11,44 @@ title: The AI Morning
 
 ## 🌐 AI 일반
 
-### **[Anthropic]** $650억 Series H 조달 — $9,650억 기업가치로 OpenAI 제치고 AI 스타트업 1위
-- Anthropic이 Altimeter Capital·Sequoia·Dragoneer 등이 공동 주도한 Series H에서 $650억(약 90조원)을 조달, 기업가치 $9,650억으로 OpenAI($7,300억)를 처음으로 넘어섬. 런-레이트 매출은 이달 초 $470억 돌파. Samsung·SK Hynix·Micron이 전략 인프라 파트너로 동참하며 차세대 메모리·로직 칩 공급 협력을 예고. Claude Opus 4.8도 같은 날 공개됐으며 IPO 전 마지막 Private 라운드로 전망됨.
-  - 🔍 *Anthropic이 OpenAI를 기업가치 기준으로 추월한 첫 시점 — Claude API를 핵심 인프라로 쓰는 팀이라면 경쟁 심화에 따른 가격 인하·서비스 확장 가능성을 기대할 수 있음*
-- 출처: [HPCwire](https://www.hpcwire.com/aiwire/2026/05/29/anthropic-raises-65b-in-series-h-funding-at-965b-post-money-valuation/) *(5/29)*
+### **[Meta]** AI 펜던트 개발 중 — Limitless 인수 기반, 내년 테스트 예정
+- Meta가 AI 기능을 탑재한 목걸이형 펜던트를 개발 중이며, 내년 중 실사용 테스트를 시작할 계획이라고 The Information이 보도. 2025년 말 Meta가 인수한 AI 웨어러블 스타트업 Limitless의 기술을 기반으로 하며, Ray-Ban 스마트 안경에 이어 AI 하드웨어 라인업을 확장하려는 전략의 일환으로 분석됨.
+  - 💡 *Limitless = 사용자의 일상 대화를 녹음·요약해 주는 웨어러블 AI 기기를 개발한 스타트업으로, Meta가 2025년 말 인수*
+  - 🔍 *AI 웨어러블 시장이 스마트 안경을 넘어 다양한 폼팩터로 확장되는 추세 — 관련 API 및 하드웨어 개발 생태계 진입 시점을 검토할 것*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/) *(5/30)*
 
-### **[OpenAI]** Rosalind Biodefense 프로그램 공개 — 팬데믹 대비·바이오방어 AI 인프라 개방
-- OpenAI가 생명과학 특화 모델 GPT-Rosalind를 검증된 개발자 및 미국 정부 파트너에게 개방하는 Rosalind Biodefense 프로그램을 공식 런칭. 역학 모델링·조기 감지·비약학적 개입 도구 개발을 지원하며, 로렌스 리버모어 국립연구소·존스홉킨스 응용물리연구소·국제 백신 이니셔티브 CEPI가 초기 파트너로 참여. 접근권은 심사를 거쳐 제공됨.
-  - 💡 *GPT-Rosalind = 분자·단백질·유전자·질병 생물학 추론에 특화된 OpenAI의 생명과학 전용 AI 모델*
-  - 🔍 *바이오·제약·공공보건 분야에 AI를 도입 중인 개발팀이라면 파트너 심사 신청 요건을 확인하고 선제적으로 접근권을 확보할 것*
-- 출처: [Axios](https://www.axios.com/2026/05/29/openai-biodefense-program) *(5/29)*
+### **[Google]** Gemini Spark 미국 일반 사용자 대상 확대 — 24/7 상시 에이전트 실사용 검증
+- Google I/O 2026에서 발표된 Gemini Spark가 5월 26일부터 미국 사용자에게 폭넓게 배포됨에 따라 TechCrunch가 실사용 리뷰를 게재. 사용자가 자리를 비워도 Google Cloud 가상 머신에서 백그라운드 작업을 수행하며, Gmail·Docs·Slides 연동으로 이메일 정리·마감 목록 생성 등을 자동화. 실제 유용성이 확인되면서 업계의 관심이 높아지고 있음.
+  - 💡 *Gemini Spark = Google의 상시 실행 AI 에이전트로, 노트북을 닫아도 클라우드 VM에서 작업을 계속 처리하는 24시간 개인 AI 어시스턴트*
+  - 🔍 *Google AI Ultra 구독자라면 지금 바로 Spark를 활성화해 이메일·일정 자동화 워크플로를 구성해볼 것 — 초기 사용자 피드백이 기능 개선에 직접 반영될 수 있음*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/) *(5/30)*
+
+### **[벤처캐피털]** AI 투자 '그룹씽크' 경고 — 지난 1년 VC 자금의 75%가 5개 기업에 집중
+- 벤처캐피털 업계 주요 투자자 3인이 TechCrunch 인터뷰에서 "17년 VC 경력 중 이처럼 심한 그룹씽크는 처음"이라고 발언. 지난 1년 동안 조달된 전체 벤처 자금의 4분의 3이 5개 기업에만 집중되며 AI 투자 편중 현상이 심화. 일부 투자자는 기초체력이 부족한 AI 스타트업에 자금이 과도하게 유입되고 있다고 우려함.
+  - 🔍 *AI 스타트업 창업이나 투자를 계획 중이라면 현재 자금 유입이 소수 대형 플레이어에 편중됐음을 감안해 차별화된 포지셔닝을 고민할 시점*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/) *(5/30)*
 
 ---
 
 ## 💻 코딩 & 도구
 
-### **[Anthropic]** Claude Opus 4.8 + Dynamic Workflow — Claude Code 병렬 서브에이전트 실행 지원
-- Claude Opus 4.8 출시와 함께 Claude Code에 Dynamic Workflow 기능이 추가됨. 단일 작업 내에서 복수의 서브에이전트를 병렬 실행해 복잡한 코딩·분석 작업을 동시에 처리 가능. 응답 "노력 수준"을 사용자가 직접 조절하는 제어판도 신규 제공되며, Fast Mode는 기존 대비 2.5배 빠르고 3배 저렴해 대규모 에이전트 파이프라인 운영에 유리. 에이전틱 코딩 벤치마크에서 GPT-5.5·Gemini 3.1 Pro를 앞서는 성능 향상 확인.
-  - 💡 *Dynamic Workflow = Claude Code에서 상위 에이전트가 하위 서브에이전트를 동시에 여러 개 생성·실행하는 병렬 오케스트레이션 기능*
-  - 🔍 *장시간 Claude Code 에이전트 세션을 운영 중이라면 Dynamic Workflow와 Fast Mode 조합으로 처리 시간과 비용을 동시에 절감할 수 있음 — 지금 바로 실험해 볼 것*
-- 출처: [The AI Insider](https://theaiinsider.tech/2026/05/29/anthropic-announces-65b-funding-round-at-965b-valuation-in-landmark-series-h-as-opus-4-8-and-compute-deal-land-on-same-day/) *(5/29)*
+### **[GitHub Copilot]** 6월 1일부터 사용량 기반 과금 전환 — 개발자 반발 거세
+- GitHub Copilot이 내일(6/1)부터 모든 플랜을 월정액에서 사용량 기반 과금(GitHub AI Credits)으로 전환. 코드 완성·Next Edit Suggestions은 계속 무제한 무료지만, Copilot Chat·CLI·클라우드 에이전트·Spaces·Spark 등은 토큰 소비량에 따라 크레딧이 차감됨. 기존에 크레딧 소진 시 제공하던 저가 모델 폴백도 폐지. 공식 커뮤니티 스레드에 900개 가까운 다운보트와 400개 이상의 항의 댓글이 달렸으며 TechCrunch가 "'What a joke'"라는 개발자 반응을 제목으로 보도.
+  - 🔍 *에이전트 세션을 자주 쓰는 경우 6월 1일 이전에 GitHub 청구 개요에서 사용 패턴을 미리 확인하고, 예산 초과 방지를 위해 어드민 크레딧 한도를 설정할 것*
+- 출처: [TechCrunch](https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/) *(5/30)*
+
+### **[OpenAI]** Codex, Windows Computer Use 지원 추가 — PC를 직접 조작하며 버그 추적
+- OpenAI가 5월 30일 Codex 앱 업데이트(v26.527)를 배포하며 Windows Computer Use 기능을 추가. 이제 Codex가 Windows 데스크톱 앱을 직접 보고, 클릭하고, 입력하며 버그를 추적하고 앱을 테스트할 수 있음. iOS·Android·Mac에서 원격으로 진행 상황을 확인하거나 작업을 이어받는 기능도 지원. 단, NPU 40+ TOPS 요건(Copilot+ PC 이상)이 필요하며 EU·영국·스위스에서는 미출시.
+  - 💡 *Computer Use = AI가 화면을 인식하고 마우스·키보드를 직접 제어해 사람처럼 GUI 앱을 조작하는 기능*
+  - 🔍 *Windows 환경에서 반복적인 UI 테스트·빌드 검증 작업을 Codex에 위임할 수 있는 시대가 열림 — Copilot+ PC 보유 여부를 먼저 확인할 것*
+- 출처: [Neowin](https://www.neowin.net/news/openai-rolls-out-major-codex-for-windows-update-with-computer-use-and-mobile-access/) *(5/30)*
 
 ---
 
 ## 💾 메모리 반도체
 
-### **[SK Hynix]** AI 붐으로 시가총액 $1조 첫 돌파 — 메모리 3사 모두 '조 달러 클럽' 합류
-- SK Hynix가 HBM(고대역폭 메모리) 수요 급증에 힘입어 시가총액 $1조를 처음 돌파. Samsung(5월 6일)·Micron에 이어 메모리 3사 모두 조 달러 클럽에 입성. 같은 날 Anthropic의 $650억 Series H에 전략 파트너로 참여한 사실도 투자 심리에 긍정적으로 작용한 것으로 분석됨.
-  - 🔍 *HBM 공급사의 잇따른 조 달러 달성은 AI 인프라 확장 사이클이 초입임을 나타냄 — HBM4·HBM4E 생산 일정과 단가 추이를 지속 주시할 것*
-- 출처: [CNN Business](https://www.cnn.com/2026/05/29/business/sk-hynix-chips-trillion-dollar-club-intl-hnk) *(5/29)*
-
-### **[삼성·SK Hynix·마이크론]** Anthropic Series H 전략 파트너 참여 — 차세대 HBM 스펙 선점 노린다
-- Samsung·SK Hynix·Micron이 Anthropic의 $650억 Series H에 전략 인프라 파트너로 공동 참여. 차세대 대형 AI 모델의 메모리 대역폭 요구사항을 조기 파악해 HBM4E 이후 제품 스펙 정의에서 선점 우위를 확보하려는 전략으로 분석됨. 특히 Samsung은 자체 파운드리 부문을 통해 Anthropic AI 칩 제조로 협력이 확대될 가능성이 주목받고 있음.
-  - 🔍 *메모리 3사의 동반 투자는 AI 칩 공급망이 단순 DRAM 납품을 넘어 로직 칩·파운드리 통합 공급으로 진화하고 있다는 신호 — HBM4E 스펙 확정 일정에 선제 대응이 필요한 시점*
-- 출처: [Eastern Herald](https://easternherald.com/2026/05/29/anthropic-965-billion-samsung-sk-hynix-micron-memory-chips/) *(5/29)*
+### **[Samsung]** HBM4E 업계 최초 샘플 출하 — 3.6 TB/s로 SK Hynix 6개월 앞서
+- Samsung이 12단 HBM4E(고대역폭 메모리 4 Extended) 샘플을 주요 글로벌 고객사에 출하 시작. 단일 스택 기준 3.6 TB/s 대역폭(HBM4 대비 20% 이상 향상)과 48 GB 용량(HBM4 36 GB 대비 33% 증가)을 달성. SK Hynix가 HBM4E 샘플 출하를 2026년 하반기로 예고한 것과 달리 삼성은 최소 6개월 먼저 공급을 시작해 NVIDIA·AMD와의 공급 계약 협상에서 유리한 고지를 점할 전망.
+  - 💡 *HBM4E = HBM4의 확장 버전으로, 더 높은 핀 속도(최대 16 Gbps)와 큰 용량을 제공하는 차세대 AI 가속기용 메모리 규격*
+  - 🔍 *삼성의 선제 샘플 출하는 HBM4E 공급 계약의 무게추가 SK Hynix에서 삼성 쪽으로 이동할 수 있는 신호 — HBM4E 기반 AI 가속기 도입 일정을 계획 중이라면 삼성 공급 라인 동향을 면밀히 추적할 것*
+- 출처: [TechTimes](https://www.techtimes.com/articles/317400/20260530/samsung-ships-industry-first-hbm4e-samples-36-tb-s-bandwidth-beats-sk-hynix-six-months.htm) *(5/30)*
