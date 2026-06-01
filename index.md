@@ -3,7 +3,7 @@ layout: default
 title: The AI Morning
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 (2026-05-31)
+# 📬 오늘의 AI 뉴스 브리핑 (2026-06-01)
 
 > 매일 아침 배달되는 AI 뉴스 다이제스트
 
@@ -11,44 +11,24 @@ title: The AI Morning
 
 ## 🌐 AI 일반
 
-### **[Meta]** AI 펜던트 개발 중 — Limitless 인수 기반, 내년 테스트 예정
-- Meta가 AI 기능을 탑재한 목걸이형 펜던트를 개발 중이며, 내년 중 실사용 테스트를 시작할 계획이라고 The Information이 보도. 2025년 말 Meta가 인수한 AI 웨어러블 스타트업 Limitless의 기술을 기반으로 하며, Ray-Ban 스마트 안경에 이어 AI 하드웨어 라인업을 확장하려는 전략의 일환으로 분석됨.
-  - 💡 *Limitless = 사용자의 일상 대화를 녹음·요약해 주는 웨어러블 AI 기기를 개발한 스타트업으로, Meta가 2025년 말 인수*
-  - 🔍 *AI 웨어러블 시장이 스마트 안경을 넘어 다양한 폼팩터로 확장되는 추세 — 관련 API 및 하드웨어 개발 생태계 진입 시점을 검토할 것*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/) *(5/30)*
-
-### **[Google]** Gemini Spark 미국 일반 사용자 대상 확대 — 24/7 상시 에이전트 실사용 검증
-- Google I/O 2026에서 발표된 Gemini Spark가 5월 26일부터 미국 사용자에게 폭넓게 배포됨에 따라 TechCrunch가 실사용 리뷰를 게재. 사용자가 자리를 비워도 Google Cloud 가상 머신에서 백그라운드 작업을 수행하며, Gmail·Docs·Slides 연동으로 이메일 정리·마감 목록 생성 등을 자동화. 실제 유용성이 확인되면서 업계의 관심이 높아지고 있음.
-  - 💡 *Gemini Spark = Google의 상시 실행 AI 에이전트로, 노트북을 닫아도 클라우드 VM에서 작업을 계속 처리하는 24시간 개인 AI 어시스턴트*
-  - 🔍 *Google AI Ultra 구독자라면 지금 바로 Spark를 활성화해 이메일·일정 자동화 워크플로를 구성해볼 것 — 초기 사용자 피드백이 기능 개선에 직접 반영될 수 있음*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/) *(5/30)*
-
-### **[벤처캐피털]** AI 투자 '그룹씽크' 경고 — 지난 1년 VC 자금의 75%가 5개 기업에 집중
-- 벤처캐피털 업계 주요 투자자 3인이 TechCrunch 인터뷰에서 "17년 VC 경력 중 이처럼 심한 그룹씽크는 처음"이라고 발언. 지난 1년 동안 조달된 전체 벤처 자금의 4분의 3이 5개 기업에만 집중되며 AI 투자 편중 현상이 심화. 일부 투자자는 기초체력이 부족한 AI 스타트업에 자금이 과도하게 유입되고 있다고 우려함.
-  - 🔍 *AI 스타트업 창업이나 투자를 계획 중이라면 현재 자금 유입이 소수 대형 플레이어에 편중됐음을 감안해 차별화된 포지셔닝을 고민할 시점*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/) *(5/30)*
+### **[Microsoft Build]** 자체 AI 모델 대거 공개 예고 — Project Polaris·MAI-Image·MAI-Voice·MAI-Transcribe 출시 임박
+- 오늘 개막하는 Microsoft Build 2026(6/2~3, San Francisco)에서 GitHub Copilot 전용 자체 코딩 모델 "Project Polaris"를 비롯해 MAI-Image 2.5, MAI-Voice 2, MAI-Transcribe 1.5 등 Microsoft 1st-party AI 모델 라인업이 발표될 예정. Claude Code에 밀린 Copilot 경쟁력 회복과 OpenAI 의존도 축소가 핵심 목표. 새 Copilot은 Starter·Pro·Enterprise 3단계 구조로 재편되며 Pro에게 최대 100,000줄 멀티 파일 컨텍스트와 자동 테스트 생성을 제공.
+  - 💡 *Project Polaris = Microsoft가 GitHub Copilot에 탑재하기 위해 자체 개발 중인 코딩 특화 AI 모델 코드명으로, GA는 2026년 8월 예정*
+  - 🔍 *Build 키노트(6/2) 이후 Copilot 가격 구조·모델 구성이 재편될 가능성이 높으므로, 기업 Copilot 플랜 갱신 결정을 발표 확인 후로 미룰 것*
+- 출처: [Notebookcheck](https://www.notebookcheck.net/Microsoft-Build-2026-What-to-expect-from-the-June-2-keynote.1311546.0.html) *(6/1)*
 
 ---
 
 ## 💻 코딩 & 도구
 
-### **[GitHub Copilot]** 6월 1일부터 사용량 기반 과금 전환 — 개발자 반발 거세
-- GitHub Copilot이 내일(6/1)부터 모든 플랜을 월정액에서 사용량 기반 과금(GitHub AI Credits)으로 전환. 코드 완성·Next Edit Suggestions은 계속 무제한 무료지만, Copilot Chat·CLI·클라우드 에이전트·Spaces·Spark 등은 토큰 소비량에 따라 크레딧이 차감됨. 기존에 크레딧 소진 시 제공하던 저가 모델 폴백도 폐지. 공식 커뮤니티 스레드에 900개 가까운 다운보트와 400개 이상의 항의 댓글이 달렸으며 TechCrunch가 "'What a joke'"라는 개발자 반응을 제목으로 보도.
-  - 🔍 *에이전트 세션을 자주 쓰는 경우 6월 1일 이전에 GitHub 청구 개요에서 사용 패턴을 미리 확인하고, 예산 초과 방지를 위해 어드민 크레딧 한도를 설정할 것*
-- 출처: [TechCrunch](https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/) *(5/30)*
-
-### **[OpenAI]** Codex, Windows Computer Use 지원 추가 — PC를 직접 조작하며 버그 추적
-- OpenAI가 5월 30일 Codex 앱 업데이트(v26.527)를 배포하며 Windows Computer Use 기능을 추가. 이제 Codex가 Windows 데스크톱 앱을 직접 보고, 클릭하고, 입력하며 버그를 추적하고 앱을 테스트할 수 있음. iOS·Android·Mac에서 원격으로 진행 상황을 확인하거나 작업을 이어받는 기능도 지원. 단, NPU 40+ TOPS 요건(Copilot+ PC 이상)이 필요하며 EU·영국·스위스에서는 미출시.
-  - 💡 *Computer Use = AI가 화면을 인식하고 마우스·키보드를 직접 제어해 사람처럼 GUI 앱을 조작하는 기능*
-  - 🔍 *Windows 환경에서 반복적인 UI 테스트·빌드 검증 작업을 Codex에 위임할 수 있는 시대가 열림 — Copilot+ PC 보유 여부를 먼저 확인할 것*
-- 출처: [Neowin](https://www.neowin.net/news/openai-rolls-out-major-codex-for-windows-update-with-computer-use-and-mobile-access/) *(5/30)*
+### **[EveryInc]** Compound Engineering 플러그인 공식 출시 — Claude Code·Codex·Cursor 통합 지원
+- EveryInc가 Claude Code, OpenAI Codex, Cursor 등 주요 AI 개발 환경에 설치되는 공식 Compound Engineering 플러그인을 GitHub에 오픈소스로 공개. 37개 스킬·51개 에이전트를 제공하며 프로젝트에서 `/ce-setup` 한 줄로 환경 점검·의존성 설치·프로젝트 설정을 자동 완료. Cursor 플러그인 마켓플레이스에서도 검색 설치 가능.
+  - 💡 *Compound Engineering = AI 에이전트 여러 개가 협력해 반복 엔지니어링 작업을 자동화하는 개발 방법론·플랫폼. EveryInc는 이를 Claude Code·Codex·Cursor용 CLI 플러그인으로 구현한 스타트업*
+  - 🔍 *Claude Code 또는 Cursor 사용자라면 GitHub에서 플러그인을 설치해 멀티 에이전트 워크플로가 실제 업무에 얼마나 활용되는지 바로 테스트해볼 것*
+- 출처: [AIToolly](https://aitoolly.com/ai-news/article/2026-05-31-everyinc-launches-official-compound-engineering-plugin-for-claude-code-codex-and-cursor-ai-platforms) *(5/31)*
 
 ---
 
 ## 💾 메모리 반도체
 
-### **[Samsung]** HBM4E 업계 최초 샘플 출하 — 3.6 TB/s로 SK Hynix 6개월 앞서
-- Samsung이 12단 HBM4E(고대역폭 메모리 4 Extended) 샘플을 주요 글로벌 고객사에 출하 시작. 단일 스택 기준 3.6 TB/s 대역폭(HBM4 대비 20% 이상 향상)과 48 GB 용량(HBM4 36 GB 대비 33% 증가)을 달성. SK Hynix가 HBM4E 샘플 출하를 2026년 하반기로 예고한 것과 달리 삼성은 최소 6개월 먼저 공급을 시작해 NVIDIA·AMD와의 공급 계약 협상에서 유리한 고지를 점할 전망.
-  - 💡 *HBM4E = HBM4의 확장 버전으로, 더 높은 핀 속도(최대 16 Gbps)와 큰 용량을 제공하는 차세대 AI 가속기용 메모리 규격*
-  - 🔍 *삼성의 선제 샘플 출하는 HBM4E 공급 계약의 무게추가 SK Hynix에서 삼성 쪽으로 이동할 수 있는 신호 — HBM4E 기반 AI 가속기 도입 일정을 계획 중이라면 삼성 공급 라인 동향을 면밀히 추적할 것*
-- 출처: [TechTimes](https://www.techtimes.com/articles/317400/20260530/samsung-ships-industry-first-hbm4e-samples-36-tb-s-bandwidth-beats-sk-hynix-six-months.htm) *(5/30)*
+*오늘(2026-06-01) 기준 24시간 이내 확인된 뉴스 없음*
