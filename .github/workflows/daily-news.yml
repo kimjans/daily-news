@@ -1,0 +1,23 @@
+name: Daily News Trigger
+
+on:
+  schedule:
+    - cron: '0 18 * * *'   # 03:00 KST (UTC+9 → UTC 18:00)
+    - cron: '0 6 * * *'    # 15:00 KST (UTC+9 → UTC 06:00)
+  workflow_dispatch:         # 수동 실행 가능
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Push trigger commit
+        run: |
+          git config user.email "kimjans1983@gmail.com"
+          git config user.name "Kim Jans"
+          git commit --allow-empty -m "trigger: daily news $(TZ=Asia/Seoul date +'%Y-%m-%d %H시')"
+          git push origin main
