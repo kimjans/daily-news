@@ -3,7 +3,7 @@ layout: default
 title: The AI Morning
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 (2026-06-01)
+# 📬 오늘의 AI 뉴스 브리핑 (2026-06-02)
 
 > 매일 아침 배달되는 AI 뉴스 다이제스트
 
@@ -11,24 +11,35 @@ title: The AI Morning
 
 ## 🌐 AI 일반
 
-### **[Microsoft Build]** 자체 AI 모델 대거 공개 예고 — Project Polaris·MAI-Image·MAI-Voice·MAI-Transcribe 출시 임박
-- 오늘 개막하는 Microsoft Build 2026(6/2~3, San Francisco)에서 GitHub Copilot 전용 자체 코딩 모델 "Project Polaris"를 비롯해 MAI-Image 2.5, MAI-Voice 2, MAI-Transcribe 1.5 등 Microsoft 1st-party AI 모델 라인업이 발표될 예정. Claude Code에 밀린 Copilot 경쟁력 회복과 OpenAI 의존도 축소가 핵심 목표. 새 Copilot은 Starter·Pro·Enterprise 3단계 구조로 재편되며 Pro에게 최대 100,000줄 멀티 파일 컨텍스트와 자동 테스트 생성을 제공.
-  - 💡 *Project Polaris = Microsoft가 GitHub Copilot에 탑재하기 위해 자체 개발 중인 코딩 특화 AI 모델 코드명으로, GA는 2026년 8월 예정*
-  - 🔍 *Build 키노트(6/2) 이후 Copilot 가격 구조·모델 구성이 재편될 가능성이 높으므로, 기업 Copilot 플랜 갱신 결정을 발표 확인 후로 미룰 것*
-- 출처: [Notebookcheck](https://www.notebookcheck.net/Microsoft-Build-2026-What-to-expect-from-the-June-2-keynote.1311546.0.html) *(6/1)*
+### **[Anthropic IPO]** SEC에 S-1 비공개 제출, OpenAI 앞질러 상장 착수
+- Anthropic이 6월 1일 SEC에 S-1을 비공개 제출하며 상장 절차에 돌입. 연간 매출 $470억·기업 가치 $9,650억을 바탕으로 OpenAI를 앞서 AI 스타트업 최초 상장을 추진 중이며, 시장 상황에 따라 이르면 2026년 내 IPO가 가능할 전망.
+  - 🔍 *Claude API를 활용 중인 기업이라면 상장 이후 가격 정책·SLA 변화 가능성을 미리 점검해두는 것이 좋음*
+- 출처: [TechCrunch](https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/) *(6/1)*
+
+### **[Microsoft Build 2026]** Windows를 AI 에이전트 플랫폼으로 선언 — Project Polaris·Copilot Super App 공개
+- 6월 2일 키노트에서 Satya Nadella가 "Windows는 인간만을 위한 플랫폼이 아니다"라고 선언. 자체 코딩 AI 모델 Project Polaris가 8월부터 GitHub Copilot 기본 모델로 교체되고, Chat·Coding·Microsoft 365·에이전트를 통합한 Copilot Super App과 Windows Agent Store가 발표됨.
+  - 💡 *Windows Agent Store = 개발자가 제작한 AI 에이전트를 배포·유통하는 에이전트 전용 앱 마켓플레이스*
+  - 🔍 *Project Polaris로 Copilot 기본 모델이 교체되면 응답 특성이 달라질 수 있으므로, 8월 전환 시점에 기존 프롬프트·워크플로 재검증이 필요*
+- 출처: [Windows News](https://windowsnews.ai/article/build-2026-microsoft-makes-windows-an-agent-platform-for-ai-developers.420496) *(6/2)*
 
 ---
 
 ## 💻 코딩 & 도구
 
-### **[EveryInc]** Compound Engineering 플러그인 공식 출시 — Claude Code·Codex·Cursor 통합 지원
-- EveryInc가 Claude Code, OpenAI Codex, Cursor 등 주요 AI 개발 환경에 설치되는 공식 Compound Engineering 플러그인을 GitHub에 오픈소스로 공개. 37개 스킬·51개 에이전트를 제공하며 프로젝트에서 `/ce-setup` 한 줄로 환경 점검·의존성 설치·프로젝트 설정을 자동 완료. Cursor 플러그인 마켓플레이스에서도 검색 설치 가능.
-  - 💡 *Compound Engineering = AI 에이전트 여러 개가 협력해 반복 엔지니어링 작업을 자동화하는 개발 방법론·플랫폼. EveryInc는 이를 Claude Code·Codex·Cursor용 CLI 플러그인으로 구현한 스타트업*
-  - 🔍 *Claude Code 또는 Cursor 사용자라면 GitHub에서 플러그인을 설치해 멀티 에이전트 워크플로가 실제 업무에 얼마나 활용되는지 바로 테스트해볼 것*
-- 출처: [AIToolly](https://aitoolly.com/ai-news/article/2026-05-31-everyinc-launches-official-compound-engineering-plugin-for-claude-code-codex-and-cursor-ai-platforms) *(5/31)*
+### **[GitHub Copilot]** 6월 1일부터 토큰 기반 청구 전환 — 개발자 비용 급등 우려
+- GitHub Copilot 전 플랜이 6월 1일부로 AI 크레딧($0.01/개) 기반 사용량 청구로 전환. 프리미엄 요청 횟수 대신 토큰 소비량으로 과금되며, 일부 개발자는 월 청구액이 수십 배 급등할 수 있다는 시뮬레이션을 공유하며 강하게 반발.
+  - 💡 *AI 크레딧 = Copilot 사용량 단위. 1크레딧 = $0.01이며, 일반 코드 완성 기능은 크레딧 차감 없이 포함*
+  - 🔍 *지금 바로 GitHub 청구 설정에서 월별 크레딧 한도를 설정해두지 않으면 예상치 못한 고액 청구가 발생할 수 있음*
+- 출처: [Dataconomy](https://dataconomy.com/2026/06/01/github-copilot-token-pricing-backlash/) *(6/1)*
+
+### **[Microsoft Build 2026]** WSL 3·Copilot Workspace GA·Azure Agent Mesh 개발자 도구 대거 출시
+- Build 2026에서 WSL 3(GPU/NPU 준네이티브 접근), Azure Agent Mesh(에이전트 간 통신 인프라), Windows Agent Framework v1.0 MIT 오픈소스 공개, Copilot Workspace 정식 출시가 발표됨. Copilot Workspace는 자연어로 버그·기능 요구사항을 입력하면 플랜 수립·파일 수정·PR 생성까지 자동 처리.
+  - 💡 *WSL 3 = Windows Subsystem for Linux 3세대. GPU·NPU에 준네이티브 수준으로 접근 가능해 AI 로컬 추론 개발 환경이 크게 개선*
+  - 🔍 *Copilot Workspace가 GA 출시됐으므로 GitHub 저장소 설정에서 바로 활성화해 반복적인 PR 작업 자동화에 활용해볼 것*
+- 출처: [AI Tools Recap](https://aitoolsrecap.com/Blog/microsoft-build-2026-windows-agent-framework-wsl3-azure-mesh) *(6/2)*
 
 ---
 
 ## 💾 메모리 반도체
 
-*오늘(2026-06-01) 기준 24시간 이내 확인된 뉴스 없음*
+*오늘(2026-06-02) 기준 24시간 이내 확인된 뉴스 없음*
