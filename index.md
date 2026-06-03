@@ -3,56 +3,49 @@ layout: default
 title: The AI Morning
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 (2026-06-03 오전판)
+# 📬 오늘의 AI 뉴스 브리핑 (2026-06-03 오후판)
 
 > 매일 오전·오후 배달되는 AI 뉴스 다이제스트
 
-> 📰 오늘 오후판 보기: [2026-06-03-pm](news/2026-06-03-pm.md)
+> 📰 오늘 오전판 보기: [2026-06-03-am](news/2026-06-03-am.md)
 
 ---
 
 ## 🌐 AI 일반
 
-### **[미국 AI 정책]** 트럼프, 완화된 AI 행정명령 서명 — 자발적 30일 사전 검토로 축소
-- 업계 반발로 초안의 90일 강제 사전 제출 요건이 30일 자발적 검토 요청으로 완화된 AI 행정명령에 트럼프 대통령이 서명.
-- 출처: [TechCrunch](https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/)
+### **[OpenAI]** GPT-5.5 품질 개선·ChatGPT 구직 검색 추가·구형 모델 은퇴 일정 발표
+- GPT-5.5 Instant 응답 가독성 개선 업데이트 배포. ChatGPT에 Indeed·Upwork 연동 구직 검색 기능(미국 전 플랜) 추가. GPT-4.5는 6월 27일, o3는 8월 26일 ChatGPT에서 단계적 은퇴 예정.
+  - 💡 *o3 = OpenAI의 대규모 추론 전용 모델; GPT-5 계열의 빠른 릴리스로 사실상 대체 수순*
+- 출처: [BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-upgrades-gpt-55-as-it-plans-to-retire-legacy-chatgpt-models/)
 
-### **[OpenAI × AWS]** GPT-5.5·GPT-5.4·Codex, Amazon Bedrock 정식 출시
-- 4월 한정 프리뷰 이후 OpenAI 최신 모델과 에이전트 코딩 도구 Codex가 AWS 전체 고객 대상으로 정식 제공 개시.
-  - 💡 *Amazon Bedrock = AWS에서 다양한 AI 모델을 단일 API로 제공하는 관리형 플랫폼*
-- 출처: [TechBriefly](https://techbriefly.com/2026/06/02/openai-gpt-5-5-codex-available-amazon-bedrock/)
+### **[Anthropic 보안]** Project Glasswing, 인도 포함 15개국 150개 기관으로 확대
+- 사이버 취약점 탐지 특화 AI 모델 Claude Mythos Preview 접근 권한을 전력·의료·통신·하드웨어 분야 150개 추가 기관에 제공. NATO·EU ENISA도 포함, 현재까지 고위험 보안 결함 10,000건 이상 발견.
+  - 💡 *Claude Mythos = 미공개 Anthropic 프론티어 모델로 소프트웨어 취약점 발견에 특화; Project Glasswing을 통해 제한적으로 제공*
+- 출처: [Business Standard](https://www.business-standard.com/technology/tech-news/anthropic-to-expand-mythos-access-to-more-than-15-countries-including-india-126060300094_1.html)
 
-### **[Microsoft]** AI 에이전트 개인 비서 'Scout' 공개
-- Microsoft 365에 통합되는 상시 구동 에이전트 어시스턴트 Scout 출시, OpenClaw 프레임워크 기반 구동.
-  - 💡 *OpenClaw = Build 2026에서 공개된 Microsoft의 오픈소스 에이전트 오케스트레이션 프레임워크*
-- 출처: [TechCrunch](https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/)
-
-### **[Google Android]** AI 딥페이크 사칭 전화 자동 감지 기능 글로벌 배포
-- Android 12 이상 기기 대상 AI 딥페이크 목소리 사칭 스캠 차단 기능 롤아웃. Pixel 기기부터 Phone by Google 앱에 탑재.
-- 출처: [TechCrunch](https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/)
-
-### **[기업 AI 비용]** Uber, 임직원 AI 사용 월 $1,500 상한제 도입
-- AI 예산을 4개월 만에 초과 소진한 후 임직원 1인당 월 AI 사용비 $1,500 상한 설정, 에이전트 코딩 도구 포함.
-- 출처: [TechCrunch](https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/)
+### **[Microsoft × OpenAI]** GPT-5.5 Microsoft Foundry 정식 출시 (Build 2026 Day 2)
+- Build 2026 마지막 날인 6월 3일, OpenAI GPT-5.5와 고성능 GPT-5.5 Pro가 Microsoft Foundry에서 GA 전환. 장기 컨텍스트 추론·에이전트 실행·Computer Use 정확도 개선이 주요 특징.
+  - 💡 *Microsoft Foundry = Azure 기반 엔터프라이즈 AI 개발 플랫폼으로 모델 선택·보안·거버넌스·에이전트 배포를 통합*
+- 출처: [Microsoft Azure Blog](https://azure.microsoft.com/en-us/blog/openais-gpt-5-5-in-microsoft-foundry-frontier-intelligence-on-an-enterprise-ready-platform/)
 
 ---
 
 ## 💻 코딩 & 도구
 
-### **[OpenAI Codex]** OpenAI, 직종 특화 Codex 플러그인 6종 출시
-- 데이터 분석·창작 제작·영업·제품 디자인·주식 투자·투자은행 등 화이트칼라 업무별 특화 플러그인 6종 공개.
-  - 💡 *Codex = OpenAI의 에이전트 소프트웨어 개발 도구로 API·IDE·CLI 연동 제공*
-- 출처: [TechCrunch](https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/)
+### **[OpenAI Codex CLI]** Amazon Bedrock 모델 지원 + 보안 강화 업데이트
+- Codex CLI에서 Amazon Bedrock을 모델 공급자로 설정해 AWS 인증·계정 제어 하에 로컬 실행 가능. 저장소 제공 Git 훅을 통한 악성 명령 실행 차단 등 보안 강화도 포함.
+  - 💡 *Codex CLI = 터미널·IDE에서 실행하는 OpenAI 오픈소스 AI 코딩 에이전트 (npm: openai-codex)*
+- 출처: [OpenAI Codex Changelog](https://developers.openai.com/codex/changelog)
 
-### **[Microsoft ACS]** AI 에이전트 행동 제어 오픈소스 표준 'ACS' 발표
-- 에이전트 허용 작업·금지 사항·인간 승인 조건·감사 로그 범위를 선언적으로 정의하는 오픈소스 표준 발표.
-  - 💡 *ACS(Agent Control Specification) = 에이전트 권한·책임 범위를 코드로 명시하는 개방형 규격*
-- 출처: [TechCrunch](https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/)
+### **[GitHub Copilot]** Project Polaris — 자체 MoE 코딩 모델로 GPT-4 Turbo 대체 예고
+- Microsoft Build 2026에서 공개. 언어·프레임워크별 특화 서브모듈을 조합한 MoE 아키텍처 기반으로, 2026년 8월부터 GitHub Copilot 기본 모델로 단계 전환. 기존 GPT-4 Turbo는 3개월 롤백 옵션 제공.
+  - 💡 *MoE(Mixture-of-Experts) = 요청 유형마다 특화 서브모델을 동적으로 조합하는 아키텍처; 효율·성능 균형에 유리*
+- 출처: [TechTimes](https://www.techtimes.com/articles/317596/20260602/github-copilot-replaces-gpt-4-project-polaris-ships-multi-agent-vs-code-build.htm)
 
-### **[GitHub Copilot CLI]** Copilot CLI v1.0.59 출시 — `/rubber-duck` 명령 추가
-- API 속도 제한 시 명확한 오류 메시지 제공과 반박 피드백용 `/rubber-duck` 슬래시 명령 신규 추가.
-  - 💡 *Rubber Duck debugging = 코드 문제를 외부에 설명하며 스스로 원인을 발견하는 디버깅 기법에서 유래*
-- 출처: [GitHub Releases](https://github.com/github/copilot-cli/releases)
+### **[Microsoft MAI]** MAI-Code-1-Flash — 자체 5B 파라미터 코딩 모델 Copilot·VS Code 탑재
+- Microsoft가 Build 2026에서 공개한 자체 경량 코딩 모델. 'inference ultra-efficient' 설계로 OpenAI 의존도 감소·비용 절감 목표, GitHub Copilot과 Visual Studio Code에 바로 통합.
+  - 💡 *MAI = Microsoft 독자 모델 라인업 브랜드명. MAI-Code-1-Flash는 그 첫 번째 코딩 특화 모델*
+- 출처: [CNBC](https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html)
 
 ---
 
