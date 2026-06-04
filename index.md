@@ -11,49 +11,40 @@ title: The AI Morning
 
 ## 🌐 AI 일반
 
-### **[Anthropic]** Anthropic, SEC에 IPO 비밀 초안 S-1 제출 — 약 $1조 상장 준비
-- 6/1 SEC에 Form S-1 초안 비밀 제출, 밸류에이션 $965B·연매출 런레이트 $47B(전년 $10B 대비 급증). 상장 시 SpaceX·Aramco에 이은 역대 최대 규모 IPO 예정.
-- 출처: [TechCrunch](https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/) *(6/1)*
+### **[DeepSeek]** DeepSeek, 창사 첫 외부 자금조달 — 텐센트 주도 $7.4B 조달 근접
+- 외부 투자 없이 창업자 자본으로만 운영해 온 DeepSeek이 첫 외부 라운드에서 약 $7.4B(50억 위안) 조달에 근접. 텐센트($1.48B)·CATL($0.74B)·JD.com·NetEase·국가 AI 산업 투자 펀드 등 참여, 투자 후 기업가치 $52~59B 예상.
+  - 🔍 *오픈소스 AI로 글로벌 시장에 충격을 준 DeepSeek이 대규모 외부 자본을 수용하는 방향으로 전환 — 오픈소스 프론티어 모델 경쟁이 자본 부문에서도 가속화될지 주목.*
+- 출처: [Bloomberg](https://www.bloomberg.com/news/articles/2026-06-03/deepseek-close-to-sealing-7-billion-funding-in-historic-ai-deal) *(6/3)*
 
-### **[Microsoft]** Microsoft Build 2026: 자체 추론 모델 MAI-Thinking-1 등 7종 공개
-- MAI-Thinking-1은 OpenAI 데이터 미사용, 자체 Maia 200 칩으로 구동 — SWE-Bench Pro에서 Claude Opus 4.6 동급. Microsoft 365 Copilot Agent Mode에 탑재 예정.
-- 💡 *MAI-Thinking-1 = Microsoft가 독자 개발한 첫 번째 추론 특화 플래그십 모델로, 외부 OpenAI API 없이 완전히 자체 데이터로 훈련.*
-- 출처: [TechTimes](https://www.techtimes.com/articles/317631/20260602/microsoft-build-2026-mai-thinking-1-first-house-reasoning-model-trained-without-openai-data.htm) *(6/2)*
-
-### **[Trump]** 트럼프, AI 혁신·보안 행정명령 서명 — 프론티어 모델 30일 자발적 사전 검토
-- AI 기업이 최강 모델 공개 전 정부에 최대 30일 사전 접근 제공(자발적). AI 사이버보안 클리어링하우스 설립 지시. 의무 허가제는 명시적으로 불허.
-- 출처: [NPR](https://www.npr.org/2026/06/02/nx-s1-5844347/ai-safety-trump-executive-order) *(6/2)*
-
-### **[Alphabet]** Alphabet, AI 컴퓨트 인프라용 ~$80B 에쿼티 발행 — 2026 capex $180~190B
-- 버크셔 $10B 사모 포함 총 ~$84.75B 조달 확정. "AI 수요가 가용 공급 초과" 공식 언급, 하이퍼스케일러 4사 합산 2026 capex ~$725B 기조 유지.
-- 출처: [CNBC](https://www.cnbc.com/2026/06/01/alphabet-to-raise-80-billion-from-stock-sales-to-fund-ai-buildout.html) *(6/1)*
+### **[Anthropic]** Claude 파트너 네트워크에 3단계 서비스 트랙·파트너 허브 포털 추가
+- 파트너사 역량을 Select·Preferred·Global Premier 3단계로 인증하는 서비스 트랙과 공개 파트너 검색 포털 'Partner Hub' 출시. 프로그램 론칭 3달 만에 40,000개 이상 기업 신청, Claude 인증 컨설턴트 10,000명 이상.
+  - 💡 *Claude 파트너 네트워크 서비스 트랙 = 컨설팅·SI 역량을 인증된 티어로 구분하는 채널 프로그램. Select 진입 기준은 인증 컨설턴트 10명·프로덕션 배포 2건 이상.*
+  - 🔍 *Claude 기반 구축을 외주할 때 Partner Hub에서 지역·규모별 공식 인증 파트너를 찾을 수 있는 공식 경로가 생겼다.*
+- 출처: [PYMNTS](https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-updates-partner-program-as-enterprise-ai-adoption-grows/) *(6/3)*
 
 ---
 
 ## 💻 코딩 & 도구
 
-### **[GitHub Copilot]** GitHub Copilot, 6/1부터 AI Credits 사용량 기반 과금으로 전환
-- Pro($10/월)→월 $15 크레딧, Pro+($39)→$70, 새 Max 플랜($100)→$200. 초과분은 opt-in 방식으로만 추가 청구 — 설정 안 하면 한도 소진 후 서비스 일시 중단.
-- 💡 *AI Credits = 토큰 소비량 기반 과금 단위. 코드 자동완성(Completions)은 Credits 차감 없이 무제한 유지.*
-- 출처: [GitHub Blog](https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans/) *(6/1)*
+### **[Cursor]** Cursor Enterprise, 다중 팀 통합 관리 Organizations 정식 출시
+- Enterprise 고객 전체 대상 Organizations GA. 여러 팀을 하나의 최상위 조직으로 묶어 팀별 예산·모델·샌드박스 환경 독립 설정, 전사 사용량·지출 대시보드 통합 제공.
+  - 🔍 *팀이 복수인 엔터프라이즈라면 Organizations로 부서별 AI 예산 통제와 모델 허용 목록을 한 곳에서 관리 가능 — Enterprise 대시보드에서 지금 바로 설정 전환 가능.*
+- 출처: [Cursor Blog](https://cursor.com/blog/organizations) *(6/3)*
 
-### **[Windsurf]** Windsurf, 'Devin Desktop'으로 리브랜딩 — 멀티 에이전트 IDE로 전환
-- 동일 VS Code 기반 IDE에 Cognition Devin 브랜드 통합. ACP 지원으로 Codex·Claude Agent·OpenCode 등 외부 에이전트를 한 화면에서 병렬 운용 가능.
-- 💡 *ACP(Agent Client Protocol) = 서로 다른 회사의 AI 에이전트가 한 IDE 안에서 표준 방식으로 협업하는 개방형 프로토콜.*
-- 출처: [Devin](https://devin.ai/blog/windsurf-is-now-devin-desktop) *(6/2)*
-
-### **[Microsoft 365]** Microsoft 365 Copilot Agent Mode, 6월 말 구독자 순차 배포 예정
-- Word·Excel·PowerPoint 내 지속 실행 AI 에이전트 생성·위임 기능. MAI-Thinking-1 탑재, 회의 요약·파일 분류 등 자동화 워크플로우 지원.
-- 출처: [buildfastwithai](https://www.buildfastwithai.com/blogs/ai-news-today-june-3-2026) *(6/3)*
+### **[Perplexity]** Perplexity, Computex 2026서 하이브리드 로컬-클라우드 AI 추론 플랫폼 시연
+- Intel CEO와 함께 Computex 기조연설서 시연. AI 작업을 실시간 평가해 민감 정보는 로컬 Intel AI PC에서, 복잡한 추론은 클라우드 모델로 자동 분배하는 'Personal Computer' 에이전트 플랫폼 발표. 7월 출시 예정.
+  - 💡 *Perplexity Personal Computer = 로컬 모델과 클라우드 프론티어 모델을 작업 특성에 따라 자동 선택하는 Perplexity의 AI PC 에이전트 제품*
+  - 🔍 *기업 데이터 보안 우려를 로컬 처리로 해소하면서도 클라우드 수준 추론을 유지하는 접근 — 7월 출시 시 AI PC 도입 프로젝트 검토에 포함할 것.*
+- 출처: [VentureBeat](https://venturebeat.com/technology/perplexity-ai-unveils-hybrid-local-cloud-inference-system-at-computex-2026) *(6/3)*
 
 ---
 
 ## 🧠 메모리 3사 Thesis Watch (MU·삼성전자·SK하이닉스)
 
 ### 종합
-- **MU**: thesis 유지. 구글 $80B AI capex 발표로 수요측 추가 강화 우호적. 실질 분수령은 6/24(일부 6/29) FQ3.
-- **삼성전자**: thesis 유지(강화 조건부). 젠슨 황 6/5 방한·면담이 HBM4 발주 물량·단가 확정의 관찰 구간 — 현재는 기대·버즈 단계, 주의 병행.
-- **SK하이닉스**: thesis 유지·강화. 수요>캐파 재확인, 신규 훼손 신호 없음. HBM4 비중↑ 구간 마진 추이 최우선 관찰.
+- **MU**: thesis 유지. 신규 변화 없음. 구글 $80B AI capex 발행으로 수요측 강화 우호적. 실질 분수령 6/24 FQ3.
+- **삼성전자**: thesis 유지(강화 조건부). 6/5 방한·면담이 HBM4 발주 물량·단가 확정 관찰 구간 — 현재 기대·버즈 단계, 주의 병행.
+- **SK하이닉스**: thesis 유지·강화. 선두·수요>캐파 재확인 기조, 신규 훼손 신호 없음. HBM4 비중↑ 마진 추이 최우선 관찰.
 
 *오늘 thesis에 영향을 주는 신규 확정 이벤트 없음.*
 
