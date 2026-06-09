@@ -21,5 +21,40 @@
       {{ content }}
     </article>
   </main>
+
+  <script>
+  // GitHub main 브랜치의 최신 커밋을 주기적으로 확인하고,
+  // 새 push가 감지되면 열려 있는 탭을 즉시 자동 새로고침한다. (정적 사이트 = 클라이언트 측에서만 가능)
+  (function () {
+    var REPO = 'kimjans/daily-news';
+    var POLL_MS = 10 * 60 * 1000;   // 10분마다 확인
+    var initialSha = null;
+    var reloading = false;
+
+    function latestSha() {
+      // 캐시 무력화를 위해 타임스탬프 부착
+      return fetch('https://api.github.com/repos/' + REPO + '/commits/main?_=' + Date.now(), {
+        headers: { 'Accept': 'application/vnd.github+json' }, cache: 'no-store'
+      }).then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (j) { return j && j.sha ? j.sha : null; })
+        .catch(function () { return null; });
+    }
+
+    function check() {
+      if (document.visibilityState === 'hidden' || reloading) return; // 보이는 탭에서만 확인
+      latestSha().then(function (sha) {
+        if (!sha) return;
+        if (initialSha === null) { initialSha = sha; return; }
+        if (sha !== initialSha) { reloading = true; location.reload(); } // 새 push 감지 → 즉시 새로고침
+      });
+    }
+
+    check();                          // 로드 직후 기준 커밋 확보
+    setInterval(check, POLL_MS);      // 이후 주기적 확인
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'visible') check(); // 탭 복귀 시 즉시 확인
+    });
+  })();
+  </script>
 </body>
 </html>
