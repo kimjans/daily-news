@@ -3,43 +3,20 @@ layout: default
 title: The AI Morning
 ---
 
-# 📬 오늘의 AI 뉴스 브리핑 (2026-06-21 오전판)
+# 📬 오늘의 AI 뉴스 브리핑 (2026-06-21 오후판)
 
 > 매일 오전·오후 배달되는 AI 뉴스 다이제스트
+
+> 📰 오늘 오전판 보기: [2026-06-21-am](news/2026-06-21-am.md)
 
 ---
 
 ## 🌐 AI 일반
 
-### **[Anthropic·채용]** AlphaFold 노벨 수상자 John Jumper, DeepMind 떠나 Anthropic 합류
-- 2024년 노벨 화학상 수상자이자 AlphaFold 개발을 이끈 **John Jumper**가 구글 DeepMind를 9년 만에 떠나 Anthropic에 합류한다고 6월 19일(금) X를 통해 발표했다. Anthropic에서는 **AI 기반 과학 발견 플랫폼** 구축을 총괄할 예정이다. 전날 Transformer 공동저자 Noam Shazeer가 OpenAI로 이적한 데 이어 구글이 이틀 연속 핵심 인재를 잃었다.
-  - 💡 *AlphaFold = 단백질 3D 구조를 AI로 예측하는 딥마인드 시스템. 신약 개발·생물학 연구에 혁명을 일으켜 2024년 노벨 화학상을 수상했다*
-  - 🔍 *Anthropic이 언어모델을 넘어 과학 연구 플랫폼으로 확장하려는 신호 — 생명과학·제약 AI 분야를 개발하는 팀은 향후 Anthropic의 과학 AI 도구 출시를 주목할 것*
-- 출처: [TechTimes](https://www.techtimes.com/articles/318754/20260620/alphafold-nobel-laureate-john-jumper-joins-anthropic-after-nine-years-deepmind.htm) *(6/20 발행)*
-
-### **[Mistral·클라우드]** Mistral, VivaTech서 'Mistral Compute' GPU 클라우드 가동 선언 — "소프트웨어에서 클라우드로"
-- VivaTech 2026 마지막 날인 6월 20일, Mistral AI CEO Arthur Mensch가 무대에서 유럽 전용 GPU 클라우드 **Mistral Compute**가 엔터프라이즈 고객 대상 정식 서비스를 시작했다고 발표했다. NVIDIA Grace Blackwell(GB300) 인프라 기반이며 프랑스 파리 남쪽 브뤼에르-르샤텔 데이터센터를 8억 3천만 달러(부채 조달)로 건설 중이다. Mensch는 "소프트웨어 회사에서 클라우드 회사로 전환"을 공식 선언했다.
-  - 💡 *Mistral Compute = 베어메탈 서버·소프트웨어 오케스트레이션·완전관리형 PaaS를 통합하는 Mistral AI의 GPU 클라우드. 데이터 소버린티·EU 규정 준수를 강조한다*
-  - 🔍 *GDPR·EU AI Act 준수를 위해 역내 데이터 잔류가 필요한 유럽 기업에게 현실적인 대안 — AWS·Azure 유럽 리전 외 선택지를 검토 중인 팀은 비교 후보에 추가할 것*
-- 출처: [TechTimes](https://www.techtimes.com/articles/318752/20260620/vivatech-2026-closes-decade-public-festival-europe-ai-buildout-moves-construction-phase.htm) *(6/20 발행)*
-
-### **[캐나다·AI 인프라]** Bell·Cohere·BUZZ HPC, $2.2억 규모 캐나다 최초 국산 AI 스택 구축 계약
-- 캐나다 통신사 Bell, AI 스타트업 Cohere, Hypertec, BUZZ HPC가 2억 2천만 달러 협약을 체결해 NVIDIA Grace Blackwell GPU 2,304기를 캐나다 국내에 설치하는 **캐나다 최초 완전 국산 AI 스택**을 구축한다. 미국 클라우드 의존도를 줄이고 데이터 주권을 확보하려는 캐나다 연방 정부의 소버린 AI 정책 일환이다.
-  - 💡 *Cohere = 캐나다 기반 기업용 LLM 스타트업. 금융·통신·법률 등 규제 산업 특화 대형 언어 모델 서비스로 알려져 있다*
-  - 🔍 *미국 AI 수출통제 리스크가 확산되면서 캐나다·유럽이 자국 AI 인프라 투자를 서두르고 있다 — 글로벌 데이터 레지던시 규제를 받는 기업은 이러한 소버린 AI 옵션을 주목할 것*
-- 출처: [TechTimes](https://www.techtimes.com/articles/318753/20260620/canada-sovereign-ai-220m-bell-cohere-deal-puts-grace-blackwell-canadian-soil.htm) *(6/20 발행)*
-
-### **[AI 인프라·에너지]** 미국 FERC, AI 데이터센터 전력망 연계 의무적 패스트트랙 명령 — 비용 소비자 전가 금지
-- 미국 연방에너지규제위원회(FERC)가 6대 광역 전력망 운영사에 AI 데이터센터의 계통 연계 승인 절차를 간소화하는 패스트트랙을 의무 도입하도록 명령했다. AI 인프라 수요 폭증으로 계통 연계 신청이 수년째 밀려 있는 병목을 해소하기 위한 조치이며, 관련 비용을 일반 가정 전기요금에 전가하는 것은 명시적으로 금지했다.
-  - 💡 *FERC(Federal Energy Regulatory Commission) = 전력망 간 도매 전력·계통 연계 등 에너지 인프라를 관장하는 미국 독립 연방 기관*
-  - 🔍 *미국 내 계통 연계 병목이 해소되면 GPU 클러스터 증설 속도도 높아진다 — AI API 가용성·가격 경쟁력에 중장기 긍정적 영향을 줄 전망*
-- 출처: [TechTimes](https://www.techtimes.com/articles/318755/20260620/ferc-mandates-fast-track-data-center-grid-access-shielding-ratepayers-costs.htm) *(6/20 발행)*
+지난 24시간 내 새로운 소식 없음
 
 ---
 
 ## 💻 코딩 & 도구
 
-### **[Claude Code]** Claude Code 2.1.185 — API 대기 힌트 메시지 문구·타이밍 개선
-- Anthropic이 6월 20일 Claude Code 2.1.185를 배포했다. API 응답 지연 시 표시되는 스트림 힌트 문구가 기존 "No response from API · Retrying in …"에서 "**Waiting for API response · will retry in …**"로 변경됐으며, 힌트가 뜨기 전 무응답 대기 시간이 10초에서 **20초**로 늘어났다. 장시간 추론 세션에서 일시적 지연을 오류로 오해하는 빈도를 줄이는 UX 소폭 개선이다.
-  - 🔍 *extended thinking 등 장시간 추론을 자주 사용하는 워크플로에서 20초 이내 지연 시 불필요한 중단이 감소한다 — 업데이트는 별도 설정 없이 최신 버전으로 자동 반영된다*
-- 출처: [Claude Code Changelog](https://code.claude.com/docs/en/changelog) *(6/20 발행)*
+지난 24시간 내 새로운 소식 없음
